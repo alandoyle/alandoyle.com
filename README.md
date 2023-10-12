@@ -1,5 +1,5 @@
-# https://alandoyle.dev
-Repository for Hugo website hosted at https://alandoyle.dev
+# https://alandoyle.com
+Repository for Hugo website hosted at https://alandoyle.com
 
 # Notes to myself
 After cloning the website run `git submodule update --init` to pull the theme submodule.
