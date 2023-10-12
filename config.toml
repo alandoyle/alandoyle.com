@@ -1,0 +1,118 @@
+baseurl = "/"
+title = "Alan Doyle"
+subTitle = "Life, Linux and everything in between :)"
+googleAnalytics = ""
+defaultContentLanguage = "en"
+paginate = 20
+enableEmoji = true
+theme = "cleite"
+#themesDir = "" # Not necessary on production sites
+
+[permalinks]
+  posts = "/blog/:title/"
+
+[params]
+    author = "Alan Doyle"
+    email = "me@alandoyle.com"
+    description = "Alan Doyle's blog ... Life, Linux and everything else."
+    favicon = "favicon.ico"
+    logo = ""
+    custom_css = ["css/custom.css"]
+    custom_js = [""]
+    faicon = ""
+
+[params.separator] # Separators between sections on the home page and top menu
+    show = true
+
+[params.blog_rss] # Show the RSS feed in the menu bar
+    show = true
+
+[params.hero]
+    textColor = "" # Empty for default color
+
+[params.cta] # Call To Action
+    show = true
+    cta = "Contact"
+    link = "contact" # Relative URL
+
+[params.fa] # Font Awesome options
+    version = "6.4.2"
+    integrity = "sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+
+[params.form] # Contact form
+    netlify = false
+    action = "https://public.herotofu.com/v1/0d7fd2b0-70d1-11ed-a377-655c67143cec"
+    method = "POST"
+    inputNameName = "name"
+    inputNameLabel = "Name"
+    inputNamePlaceholder = "Your name"
+    inputEmailName = "email"
+    inputEmailLabel = "Email"
+    inputEmailPlaceholder = "Your email"
+    inputMsgName = "message"
+    inputMsgLabel = "Write something"
+    inputMsgLength = 750
+    inputSubmitValue = "Send"
+
+[params.posts]
+    showAuthor = true
+    showDate = true
+    showTags = true
+    dateFormat = "Jan 03, 2006"
+
+[params.contact] # Contact info
+    email = "me@alandoyle.com"
+    phone = ""
+    skype = ""
+    address = ""
+
+[params.social]
+    twitter = "https://twitter.com/_AlanDoyle_"
+    facebook = "https://facebook.com/alan.d.doyle"
+    docker = "https://hub.docker.com/u/alandoyle"
+    github = "https://github.com/alandoyle"
+    ubuntu = "https://launchpad.net/~alandoyle"
+    gitlab = ""
+    codepen = ""
+    instagram = "https://instagram.com/alan.d.doyle"
+    pinterest = ""
+    youtube = ""
+    linkedin = ""
+    weibo = ""
+    mastodon = ""
+    tumblr = ""
+    flickr = ""
+    steam = "https://steamcommunity.com/id/alandoyle"
+    "500px" = ""
+
+[params.copy] # Copyright
+    copy = "2008-<NOW> - <TITLE>. All rights reserved." # Empty for default content
+
+[privacy]
+    [privacy.googleAnalytics]
+        anonymizeIP = true
+        disable = false
+        respectDoNotTrack = true
+        useSessionStorage = false
+    [privacy.instagram]
+        disable = false
+        simple = false
+    [privacy.twitter]
+        disable = false
+        enableDNT = true
+        simple = false
+    [privacy.vimeo]
+        disable = false
+        simple = false
+    [privacy.youtube]
+        disable = false
+        privacyEnhanced = true
+
+[params.languageSwitcher]
+    show = false
+
+[languages]
+    [languages.en]
+        languageName = "en"
+        weight = 1
+        contentDir = "content/en"
