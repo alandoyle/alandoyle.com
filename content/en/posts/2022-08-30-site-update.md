@@ -33,7 +33,7 @@ My reasons for switching are really quite simple actually:
 
 [WordPress](https://wordpress.org) is written in [PHP](https://php.net), which has, IMHO, an unfairly bad reputation. I think the WordPress is a brilliant piece of software but for my needs it's totally overkill. I don't update my blog very often, in fact I'll be using it to keep notes on things I've done and useful software/settings I use. However, every time I log into Wordpress there are Wordpress updates, plugin updates and theme updates, all of which really need to be done in order to ensure the site isn't compromised. This is more maintenance that I actually want.
 
-With Hugo I can simply add a new post and I'm done, I don't need to check Hugo versions nor plugin versions as there are none, all the [code for this site](https://github.com/alandoyle/alandoyle.dev) is contained within simple Github repositories. No code to backdoor, no security to compromise, just a simple static site.
+With Hugo I can simply add a new post and I'm done, I don't need to check Hugo versions nor plugin versions as there are none, all the [code for this site](https://github.com/alandoyle/alandoyle.com) is contained within simple Github repositories. No code to backdoor, no security to compromise, just a simple static site.
 
 ## Speed
 
@@ -94,7 +94,7 @@ Sorry if you were looking for a nice conversion ***[Howto](https://gohugo.io/too
 
 ![Hugo logo](/images/blog/Cloudflare-Pages-Logo.png)
 
-Hosting with [Cloudflare](https://cloudflare.com) was a no-brainer. All my DNS is already handled by Cloudflare for my other domains so adding **alandoyle.dev** was a given.
+Hosting with [Cloudflare](https://cloudflare.com) was a no-brainer. All my DNS is already handled by Cloudflare for my other domains so adding **alandoyle.com** was a given.
 
 ### Pre-requisites:
 
@@ -107,8 +107,9 @@ Hosting with [Cloudflare](https://cloudflare.com) was a no-brainer. All my DNS i
 Here are the steps I followed to setup:
 
 1. Log in to the Cloudflare dashboard.
-1. Select **Account Home** > **Pages** from the lefthand side menu.
-1. Select the blue button **Create a project** > **Connect to Git** from the dropdown list.
+1. Select **Account Home** > **Workers & Pages** from the lefthand side menu.
+1. Select the blue button **Create application** 
+1. On the **Create an application** page select the **Pages** tab (defaults to **Workers**) and click **Connect to Git** button.
 
 At this point Github prompted me to login and give Cloudflare Pages permission on my Github Repository. You can choose all repositories or specify a single repository, I specified only the repository with the Hugo website checked in.
 
@@ -120,7 +121,7 @@ Below these settings is the **Build settings** section where I chose **Hugo** fr
 
 I left the other settings as is as I wanted to publish the Hugo site in the root of the website.
 
-Click the bue botton marked **Save and Deploy** in the bottom right to actually get Cloudflare to build the Hugo site.
+Click the blue botton marked **Save and Deploy** in the bottom right to actually get Cloudflare to build the Hugo site.
 
 Now Cloudflare Pages will initialize the build environment, clone the Github repository, build the site and deploy it to Clouflare's global network.
 
@@ -132,7 +133,7 @@ If you don't need/want a custom domain the you're all done.
 
 Once that all worked I set about adding a custom domain. I went back to the main **Pages** page and clicked on the name of my project. From within here I chose the **Custom domains** tab then clicked the **Set up a custom domain** button.
 
-Here I filled in the **Domain** field and clicked **Continue**. Thankfully because my custom domain is hosted on Cloudflares DNS servers and part of the same account as the Pages project it automatically updated the DNS records with the correct values saving me any hastle of mis-typing any of the information (unlike this post which had typo's galore). I then clicked **Activate Domain**
+Here I filled in the **Domain** field and clicked **Continue**. Thankfully because my custom domain is hosted on Cloudflares DNS servers and part of the same account as the Pages project it automatically updated the DNS records with the correct values saving me any hastle of mistyping any of the information (unlike this post which had typo's galore). I then clicked **Activate Domain**
 
 I got an informational message saying the domain was being set up but that it may take up to 48 hours for DNS records to update and the site to become viewable by visitors. However within 5 minutes I could access the site which was really nice.
 
@@ -154,3 +155,7 @@ One thing I noticed was the post dates on my blog entries were incorrect. After 
 Was it worth switching from Wordpress to Hugo?
 
 Well for me I'd have to say absolutely and the continous _Build & Deploy_ provided by Cloudflare Pages along with Cloudflare's CDN's makes it well worth it for a small blog like mine. Now all I have to do is turn those drafts I saved into posts here...
+
+# Updates
+
+2023-10-12 - Cloudflare site layout has changed, so updated instructions on where to find the new Pages location.
