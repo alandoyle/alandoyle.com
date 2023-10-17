@@ -1,14 +1,14 @@
 ---
 title: "New Tiny Tiny RSS Docker Image"
-faicon: "fa-brands fa-docker"
+faicon: "fa-solid fa-square-rss"
 date: 2023-06-03T12:19:27+01:00
 publishDate: 2023-06-03T12:19:27+01:00
 images: []
 draft: false
 tags: [docker,tt-rss]
 cover:
-    image: "/images/blog/ttrss-logo.png"
-    alt: "Image Description"
+    image: "/images/logo/ttrss-logo.png"
+    alt: "Tiny Tiny RSS & MySQL Logos"
     relative: false
 ---
 

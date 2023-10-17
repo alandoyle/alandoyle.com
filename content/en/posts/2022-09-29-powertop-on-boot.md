@@ -8,7 +8,7 @@ draft: false
 tags: ["ubuntu","tips","powersaving"]
 cover:
     image: "/images/blog/roberto-sorin-ZZ3qxWFZNRg-unsplash_cropped.jpg"
-    alt: "Image Description"
+    alt: "brown green and blue round buttons - Roberto Sorin (https://unsplash.com/photos/ZZ3qxWFZNRg)"
     relative: false
 ---
 
@@ -18,11 +18,11 @@ So in February 2020 I bought a [Teclast F5](/hardware/#teclast-f5) on Amazon to 
 
 # What is PowerTOP?
 
-From [Wikipedia](https://en.wikipedia.org/wiki/PowerTOP)... 
+From [Wikipedia](https://en.wikipedia.org/wiki/PowerTOP)...
 
 > PowerTOP is a software utility designed to measure, explain and minimise a computer's electrical power consumption.
 
-That sums it up quite nicely. 
+That sums it up quite nicely.
 
 Nowadays the Linux kernel is much better at power saving but I found in some scenarios, particularly Intel-based laptops, PowerTOP can help lower power consumption and heat. For example, on the Teclast F5 I found that enabling "SATA link power management" in PowerTOP had a very profound and positive effect on the temperature of the 256Gb M.2 SSD installed. It went from being a burning hotspot on the bottom of the laptop to being the same temperature as the rest of the all-metal aluminum chassis. Even under Windows, were unfortunately powersaving and ACPI handling can be better, it was burning hot so very pleased with the outcome. An added bonus is that enabling it incurs almost no noticeable drawbacks (no performance impact, no latency) but it will save you 0.5W to 1W and a _lot_ of heat!
 
@@ -121,6 +121,6 @@ fi
 
 # Conclusion
 
-In particular, for my Teclast F5 I've found the PowerTOP auto tuned settings combined with my custom rules maximize the battery life of this little laptop. 
+In particular, for my Teclast F5 I've found the PowerTOP auto tuned settings combined with my custom rules maximize the battery life of this little laptop.
 
 Hopefully this information will help someone reduce the power usage of their laptop.

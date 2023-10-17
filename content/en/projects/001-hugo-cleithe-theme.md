@@ -5,7 +5,7 @@ faicon: "fa-solid fa-globe"
 draft: false
 ShowToc: true
 cover:
-    image: "/images/blog/hugo-logo.png"
+    image: "/images/logo/hugo-logo.png"
     alt: "HUGO"
     relative: false
 ---

@@ -8,7 +8,7 @@ draft: false
 tags: [updates,hugo]
 cover:
     image: "/images/blog/markus-winkler-GTJNxRG4QJw-unsplash_cropped.jpg"
-    alt: "Markus Winkler"
+    alt: "a close up of an old fashioned typewriter - Markus Winkler (https://unsplash.com/photos/GTJNxRG4QJw)"
     relative: false
 ---
 
@@ -20,7 +20,7 @@ I am currently using their [Free tier](https://herotofu.com/pricing) which limit
 
 2. A custom "Thank you" page URL can be configures thus making the whole process seamless and keeps users on your site after they submitted so Contact info.
 
-![HeroTofu](/images/blog/herotofu-logo.png)
+![HeroTofu](/images/logo/herotofu-logo.png)
 
 # Setup
 

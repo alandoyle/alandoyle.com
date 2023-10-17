@@ -2,13 +2,13 @@
 title: "Certbot using Cloudflare DNS in Docker"
 date: 2023-02-15T15:25:12Z
 publishDate: 2023-02-15T15:25:12Z
-faicon: "fa-brands fa-docker"
+faicon: "fa-brands fa-cloudflare"
 images: []
 draft: false
 tags: [docker,updates,cloudflare,hugo]
 aliases: [/blog/docker-cloudflare-certbot/]
 cover:
-    image: "/images/blog/le-logo-wide.png"
+    image: "/images/logo/letsencrypt-logo.png"
     alt: "Lets Encrypt"
     relative: false
 ---

@@ -9,7 +9,7 @@ draft: false
 tags: ["ubuntu","tips","performance"]
 cover:
     image: "/images/blog/harrison-broadbent-5tLfQGURzHM-unsplash_cropped.jpg"
-    alt: "Image Description"
+    alt: "green RAM stick - Harrison Broadbent (https://unsplash.com/photos/5tLfQGURzHM)"
     relative: false
 ---
 

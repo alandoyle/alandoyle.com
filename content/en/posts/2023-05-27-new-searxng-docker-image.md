@@ -1,14 +1,14 @@
 ---
 title: "New SearxNG Docker Image"
-faicon: "fa-brands fa-docker"
+faicon: "fa-brands fa-searchengin"
 date: 2023-05-27T22:18:55+01:00
 publishDate: 2023-05-27T22:18:55+01:00
 images: []
 draft: false
 tags: [docker,searxng]
 cover:
-    image: "/images/blog/searxng-logo.png"
-    alt: "Image Description"
+    image: "/images/logo/searxng-logo.png"
+    alt: "SearxNG Logo"
     relative: false
 ---
 

@@ -10,7 +10,7 @@ tags: ["ubuntu","swap","tips","performance"]
 showToc: true
 cover:
     image: "/images/covers/possessed-photography-nuc3NFB_6po-unsplash_cropped.jpg"
-    alt: "Image Description"
+    alt: "SODIMM RAM stick - Possessed Photography (https://unsplash.com/photos/nuc3NFB_6po)"
     relative: false
 ---
 

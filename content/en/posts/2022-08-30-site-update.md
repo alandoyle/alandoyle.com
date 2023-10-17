@@ -25,7 +25,7 @@ I decided I just wanted my website on the .COM domain, so I moved various low pr
 
 # Why I’m switching from Wordpress
 
-![Wordpress logo](/images/blog/WordPress-logotype-standard.png)
+![Wordpress logo](/images/logo/wordpress-logo.png)
 
 My reasons for switching are really quite simple actually:
 
@@ -63,9 +63,9 @@ More details on each step are below.
 
 ## Install Hugo locally
 
-![Hugo logo](/images/blog/hugo-logo.png)
+![Hugo logo](/images/logo/hugo-logo.png)
 
-I run Ubuntu Linux, so installing Hugo was easy. I used 
+I run Ubuntu Linux, so installing Hugo was easy. I used
 
 > sudo apt install hugo -y
 
@@ -86,13 +86,13 @@ I found the [Terrassa](https://github.com/daniarlert/hugo-terrassa-theme) theme 
 
 Exporting content from WordPress was easy, no problems there, there are several solutions available but after I went through my posts I decided none were worth keeping.
 
-There were some incomplete drafts which were worth saving however, mostly stuff to remind myslef on how I did it but I only took a copy of the bare text as I'd decided I'd reformat and reword them at a later date in Markdown so an exact Wordpress export wasn't necessary. 
+There were some incomplete drafts which were worth saving however, mostly stuff to remind myslef on how I did it but I only took a copy of the bare text as I'd decided I'd reformat and reword them at a later date in Markdown so an exact Wordpress export wasn't necessary.
 
 Sorry if you were looking for a nice conversion ***[Howto](https://gohugo.io/tools/migrations/#wordpress)*** but there was nothing relevant on there any more so it's gone. Which was a bit of a relief. Some technical debt removed.
 
 ## Publish to Cloudflare Pages
 
-![Hugo logo](/images/blog/Cloudflare-Pages-Logo.png)
+![Cloudflare Pages logo](/images/logo/cloudflare-pages-logo.png)
 
 Hosting with [Cloudflare](https://cloudflare.com) was a no-brainer. All my DNS is already handled by Cloudflare for my other domains so adding **alandoyle.com** was a given.
 
@@ -108,7 +108,7 @@ Here are the steps I followed to setup:
 
 1. Log in to the Cloudflare dashboard.
 1. Select **Account Home** > **Workers & Pages** from the lefthand side menu.
-1. Select the blue button **Create application** 
+1. Select the blue button **Create application**
 1. On the **Create an application** page select the **Pages** tab (defaults to **Workers**) and click **Connect to Git** button.
 
 At this point Github prompted me to login and give Cloudflare Pages permission on my Github Repository. You can choose all repositories or specify a single repository, I specified only the repository with the Hugo website checked in.
