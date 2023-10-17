@@ -103,7 +103,7 @@ NOTE: Please choose a strong, secure *root* password above.
 
 ## Create database and user
 
-To create the database we need to connect to the MySQL Docker container and run some SQL commands.
+To create the database you need to connect to the MySQL Docker container and run some SQL commands.
 
 ``` bash
 docker exec -it mysql /bin/bash
@@ -176,6 +176,10 @@ Under **Server and Other Services Settings** I tend to only check 2 options, *Di
 And finally under **Admin Account Settings** I *always* set up an Administrative account that **WONT** be used to commit changes to any repositories. Later I'd create a non-Adminastrative user to do all the Repository creation and commits to Git.
 
 > NOTE: If *Enable Require Sign In to View Pages* is enabled then the Docker container **WILL** need to be restarted for it to take effect.
+
+Once finished click the blue **Install GOGS** button. This will now complete the installation and log you in as the Administrative User if one was set up.
+
+From here you'll be able to create non-Administrative users and start using your Git server.
 
 ---
 
