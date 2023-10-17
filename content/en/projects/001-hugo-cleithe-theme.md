@@ -183,7 +183,7 @@ There's a lot more information about the basic configuration of an Hugo site [he
 e.g.
 ```toml
 [params.copy]
-    copy = "&copy; 2008-<NOW> - <TITLE>"
+    copy = "2008-<NOW> - <TITLE>"
 ```
 
 This will output `© 2008-2023 - Site Title`
