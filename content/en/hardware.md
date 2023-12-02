@@ -27,7 +27,8 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 - 32Gb DDR4 2666 RAM
 - AMD® Vega 8 2Gb Integrated Graphics
 - NVIDIA GeForce GTX 1650 4GB Dedicated Graphics
-- 4TB Crucial P3 CT4000P3SSD8 M.2 NVMe SSD
+- 1TB Sabrent Rocket Q M.2 NVMe SSD
+- 2Tb Cruical MX-500 SATA III SSD
 - 1x USB 2.0 ports, 1x left
 - 2x USB 3.1 ports, 2x left
 - 15.6” HD screen (1920×1080), 120Hz 16:9 widescreen
@@ -38,6 +39,54 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 - Realtek Bluetooth 4.2 Adapter
 - ELAN 1200 Touchpad
 - USB2.0 HD UVC WebCam
+
+---
+
+## CiT S506
+**Erebus** – Main Windows Development Machine ([Windows 11 Pro](https://www.microsoft.com/windows))
+
+{{< figure src="/images/hardware/CiT-S506.jpg" alt="CiT S506" class="hardware-image" >}}
+
+- AMD Ryzen 5 3600 3.6GHz (up to 4.2 GHz) 6C/12T
+- Noctua NH-L12S Top-Flow Cooler
+- Gigabyte B450M DS3H AM4 Motherboard
+- Corsair Vengeance LPX Black 64GB (2x32GB) 3600MHz DDR4 RAM
+- 4TB Crucial P3 CT4000P3SSD8 M.2 NVMe SSD
+- 12Tb Western Digital WD120EDAZ SATA-III
+- PNY RTX-A2000 6GB PCI-Express 4.0 x16
+- Realtek High Definition Audio
+- Realtek RTL8168 Gigabit Ethernet PCIe
+- 4x USB 3.0 ports, 4x rear
+- 6x USB 2.0 ports, 4x rear, 2x front
+- Xbox 360 2.4GHz Wireless Wired Controller
+- Dell U2410F Series 24" LCD (1920×1200)
+- MSI G321Q 32" Flat Gaming IPS (2560x1440)
+- havit Wired RGB Mouse
+- havit Wired RGB Mechanical Gaming Keyboard
+- MT-VIKI 4 port KVM HDMI Switch
+
+---
+
+## Alienware Alpha R2
+**Dionysus** – emuShell Test Machine ([emuShell](https://emushell.dev))
+
+{{< figure src="/images/hardware/Alienware-Alpha-R2.jpg" alt="Alienware Alpha R2" class="hardware-image" >}}
+
+- Intel i7-6700T 2.8GHz (up to 3.6 GHz) 4C/8T 35W
+- 16Gb DDR4 2133 SDRAM
+- nVidia GTX 960 4GB PCI-Express 3.0 x16
+- 256GB Patriot P300 M.2 NVMe SSD
+- 512GB Patriot P220 SATA-III
+- Intel Dual Band Wireless AC 3165 & Bluetooth 4.2
+- Intel HD Audio
+- Realtek ALC3234 for optical S/PDIF output
+- Realtek RTL8168 Gigabit Ethernet PCIe
+- 4x USB 2.0 port
+- 1x HDMI In port
+- 1x HDMI Out port
+- 1x Optical S/PDIF port
+- 1x Alienware Graphics Amplifier port
+- RALAN Xbox One S/X 2.4GHz Wireless Wired Controller
 
 ---
 
@@ -81,54 +130,8 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 
 ---
 
-## Beelink SER5 Max
-**Tyr** – Main Windows Development Machine ([Windows 11 Pro](https://www.microsoft.com/windows))
-
-{{< figure src="/images/hardware/Beelink-SER5-Max.jpg" alt="Beelink SER5 Pro" class="hardware-image" >}}
-
-- AMD Ryzen 7 5800H (8C/16T, 4M Cache, 3.2GHz up to 4.4GHz)
-- Crucial 32Gb DDR4 3200 RAM
-- Crucial P3 Plus 500GB PCIe M.2 2280 SSD NVMe
-- AMD Radeon RX Vega 8 Graphics 3GB
-- Intel Bluetooth 5.2
-- Intel Wifi 6 AX200 160MHz
-- Realtek High Definition Audio
-- Realtek RTL8168 Gigabit Ethernet PCIe
-- 3x USB 3.2 ports
-- 1x USB 2.0 port
-- 1x USB C port
-- Dell U2410F Series 24" LCD (1920×1200)
-- MSI G321Q 32" Flat Gaming IPS (2560x1440)
-- havit Wired RGB Mouse
-- havit Wired RGB Mechanical Gaming Keyboard
-- MT-VIKI 4 port KVM HDMI Switch
-
----
-
-## GameMax Silent
-**Camaxtli** – Main Linux Development Machine ([Pop!_OS](https://pop.system76.com/))
-
-{{< figure src="/images/hardware/GMX-SILENT.jpg" alt="GameMax Silent" class="hardware-image" >}}
-
-- AMD Ryzen 5 3600 3.6GHz (up to 4.2 GHz) 6C/12T
-- Noctua NH-L12S Top-Flow Cooler
-- Gigabyte B450M DS3H AM4 Motherboard
-- Corsair Vengeance LPX Black 64GB (2x32GB) 3600MHz DDR4 RAM
-- 256Gb Kingston NVMe SSD
-- 10Tb Seagate ST10000DM005 SATA-III
-- 12Tb Western Digital WD120EDAZ SATA-III
-- PNY RTX-A2000 6GB PCI-Express 4.0 x16
-- Realtek High Definition Audio
-- Realtek RTL8168 Gigabit Ethernet PCIe
-- 4x USB 3.0 ports, 4x rear
-- 6x USB 2.0 ports, 4x rear, 2x front
-- Xbox 360 2.4GHz Wireless Wired Controller
-- RALAN Xbox One S/X 2.4GHz Wireless Wired Controller
-
----
-
 ## Antec Fusion
-**Elysium** – Steam PC ([Windows 11 Pro](https://www.microsoft.com/windows))
+**Elysium** – emuShell Gaming PC ([Windows 11 Pro](https://www.microsoft.com/windows))
 
 {{< figure src="/images/hardware/Antec-Fusion.jpg" alt="Antec Fusion" class="hardware-image" >}}
 
@@ -136,8 +139,8 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 - Noctua NH-C14S Top-Flow Cooler
 - ASRock AMD Ryzen B550M Phantom Gaming 4 AM4 PCIe 4.0 mATX Motherboard
 - Corsair Vengeance LPX Black 32GB (4x8GB) DDR4 3200 RAM
-- 1TB Sabrent Rocket Q M.2 NVMe SSD
-- 2Tb Cruical MX-500 SATA III SSD
+- 512GB Toshiba M.2 NVMe SSD
+- 4Tb Samsung 870 QVO SATA III SSD
 - 8Tb Samsung 870 QVO SATA III SSD
 - PNY RTX-A2000 12GB PCI-Express 4.0 x16
 - Realtek 7.1 CH (Realtek ALC887/897 Audio Codec) High Definition Audio
@@ -155,7 +158,7 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 # Servers
 
 ## Beelink U59 Pro
-**Hel** – Router ([OPNsense](https://opnsense.org/))
+**Hel** – VM Server ([Proxmox VE](https://www.proxmox.com/en/proxmox-ve))1
 
 {{< figure src="/images/hardware/Beelink-U59-Pro.jpg" alt="Beelink U59 Pro" class="hardware-image" >}}
 
@@ -173,8 +176,48 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 
 ---
 
-## Fractal Design Node 804
+## Kolink Satellite
 **Njord** – VM Server ([Proxmox VE](https://www.proxmox.com/en/proxmox-ve))
+
+{{< figure src="/images/hardware/Kolink-Satellite.jpg" alt="Kolink Satellite" class="hardware-image" >}}
+
+- Intel® Quad-Core Pentium® Processor J4205 (up to 2.6 GHz)
+- ASRock J4205-ITX Motherboard
+- 16Gb DDR3 1866 RAM
+- Intel UHD Graphics 505 GPU
+- 256GB Kingston RBUSNS8154P3256GJ3
+- 2x 12000Gb Western Digital WD120EDAZ SATA-III
+- 1x 10000Gb Seagate ST10000DM005 SATA-III
+- ASMedia Technology Inc. ASM1062 Serial ATA Controller
+- Realtek ALC892 High Definition Audio
+- Realtek RTL8111GR Gigabit Ethernet PCIe
+- 2x USB 3.0 ports, 2x front
+- 2x USB 3.1 ports, 2x rear
+- 2x USB 2.0 ports, 2x rear
+
+---
+
+## Beelink SER5 Max
+**Tyr** – VM Server ([Proxmox VE](https://www.proxmox.com/en/proxmox-ve))
+
+{{< figure src="/images/hardware/Beelink-SER5-Max.jpg" alt="Beelink SER5 Pro" class="hardware-image" >}}
+
+- AMD Ryzen 7 5800H (8C/16T, 4M Cache, 3.2GHz up to 4.4GHz)
+- Crucial 32Gb DDR4 3200 RAM
+- Crucial P3 Plus 500GB PCIe M.2 2280 SSD NVMe
+- AMD Radeon RX Vega 8 Graphics 3GB
+- Intel Bluetooth 5.2
+- Intel Wifi 6 AX200 160MHz
+- Realtek High Definition Audio
+- Realtek RTL8168 Gigabit Ethernet PCIe
+- 3x USB 3.2 ports
+- 1x USB 2.0 port
+- 1x USB C port
+
+---
+
+## Fractal Design Node 804
+**Ve** – VM Server ([Proxmox VE](https://www.proxmox.com/en/proxmox-ve))
 
 {{< figure src="/images/hardware/NODE-804.jpg" alt="NODE-804" class="hardware-image" >}}
 
@@ -187,31 +230,10 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 - 2x 8Tb Seagate Barracuda ST8000DM004 SATA-III
 - 4Tb Seagate Barracuda ST4000DM000 SATA-III
 - 4Tb Seagate Barracuda ST4000DM004 SATA-III
-- ASUS GTX-1650 OC 4GB PCI-Express 3.0 x16
 - Realtek High Definition Audio
 - Realtek RTL8168 Gigabit Ethernet PCIe
 - ASMedia Technology Inc. ASM1062 4-port Serial ATA Controller
 - 4x Noctua NF-P12 redux-900, Ultra Quiet Silent Fans
-- 2x USB 3.0 ports, 2x front
-- 2x USB 3.1 ports, 2x rear
-- 2x USB 2.0 ports, 2x rear
-
----
-
-## CiT S506
-**Njord** – VM Server ([Proxmox VE](https://www.proxmox.com/en/proxmox-ve))
-
-{{< figure src="/images/hardware/CiT-S506.jpg" alt="CiT S506" class="hardware-image" >}}
-
-- Intel® Quad-Core Pentium® Processor J4205 (up to 2.6 GHz)
-- ASRock J4205-ITX Motherboard
-- 16Gb DDR3 1866 RAM
-- Intel UHD Graphics 505 GPU
-- 512GB Patriot P220 SSD SATA-III
-- 2x 12000Gb Western Digital WD120EDAZ SATA-III
-- ASMedia Technology Inc. ASM1062 Serial ATA Controller
-- Realtek ALC892 High Definition Audio
-- Realtek RTL8111GR Gigabit Ethernet PCIe
 - 2x USB 3.0 ports, 2x front
 - 2x USB 3.1 ports, 2x rear
 - 2x USB 2.0 ports, 2x rear
@@ -304,6 +326,22 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 
 - Rev 1.3 Motherboard
 - Kickstart 2.05
+- A630 Rev 2 Accelerator 68030 50Mhz
+- 1 MB Amiga Chip RAM
+- Enhanced Chipset (ECS)
+- 4 × 8-bit PCM channels (2 stereo channels)
+- Gotek OLED Floppy Drive
+- 32 GB SD IDE on SD2IDE adapter
+
+---
+
+## Amiga 600
+**Morrigan** – Amiga 600 ([Amiga OS 2.05](https://en.wikipedia.org/wiki/AmigaOS_version_history#Workbench_2.0,_2.04,_2.05,_2.1))
+
+{{< figure src="/images/hardware/Amiga-600.jpg" alt="Amiga 600" class="hardware-image" >}}
+
+- Rev 1.3 Motherboard
+- Kickstart 2.05
 - A630 Rev 3 Accelerator 68030 50Mhz inc FPU
 - 1 MB Amiga Chip RAM
 - Amiga A600 PiggyBackNot RGB2HDMI 1Mb Expansion
@@ -311,5 +349,4 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 - 4 × 8-bit PCM channels (2 stereo channels)
 - Gotek OLED Floppy Drive
 - 32 GB SD IDE on SD2IDE adapter
-
 ---

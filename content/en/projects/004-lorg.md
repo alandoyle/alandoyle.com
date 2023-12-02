@@ -2,7 +2,7 @@
 title: "lorg"
 description: "(Pronounced Lur-Ugh) A framework and javascript free privacy respecting Google Text/Image Proxy originally based on a cut-down version of LibreX but now evolved into simple, lightweight API driven Meta Search Engine."
 url: /projects/lorg
-draft: true
+draft: false
 faicon: fab fa-php
 ShowToc: true
 cover:
@@ -11,16 +11,13 @@ cover:
     relative: false
 ---
 
-![lorg screenshot](/images/blog/lorg-screenshot.jpg)
-
 ## What is it?
 
 [(Pronounced Lur-Ugh - An Irish word meaning "Track, trace; seek, search for." )](https://www.teanglann.ie/en/fgb/lorg)
 
-*lorg* is a framework and javascript free privacy respecting Google Text/Image Proxy originally based on a cut-down version of LibreX but now evolved into simple, lightweight API driven Meta Search Engine.
+*lorg* is a framework and javascript free privacy respecting Invidious/Google Text/Image Proxy based on a simple, lightweight API driven Meta Search Engine.
 
-It uses Google to return Test and Image searches, while it's Youtube search results are handled by an [Invidious](https://invidious.io/) instance.
-
+It uses Google to return Text and Image searches, while it's Youtube search results are handled by an [Invidious](https://invidious.io/) instance.
 
 ## Features
 
@@ -31,7 +28,15 @@ It uses Google to return Test and Image searches, while it's Youtube search resu
  * It can be configured so the Image Search returns a link to the image, rather than the page which includes the image.
  * It also has a simple API whereby and `ìnstances.json`file can be configured with a number of URLS to other *lorg* servers thus spreading the search load.
  * It normally uses a random User Agent but can be configured to send through the connection user Agent or a pre-configured User Agent.
- * An instance can be configured to be an "API-only" instance and won't present a search interface, or will redirect (if configured) to a specific URL.
+
+## Special searches
+
+ * All searches with one or two words are automatically checked against Wikipedia. (e.g. [Star Wars](https://search.lorg.dev/search?q=star+wars&t=0&p=0))
+ * Currency Convertor (provided by [Money Convert](https://moneyconvert.net/)) (e.g. '[12 GBP to EUR](https://search.lorg.dev/search?q=12+GBP+to+EUR&t=0&p=0)')
+ * Current weather (provided by [OpenMeteo](https://open-meteo.com/)) (e.g. 'weather')
+ * Your External IP (e.g. '[my ip](https://search.lorg.dev/search?q=my+ip&t=0&p=0)')
+ * Your User Agent (e.g. '[my user agent](https://search.lorg.dev/search?q=my+user+agent&t=0&p=0)')
+ * Word definition (provided by [Free Dictionary API](https://dictionaryapi.dev/)) (e.g. '[run meaning](https://search.lorg.dev/search?q=run+meaning&t=0&p=0)')
 
 ## Example Config File
 
@@ -44,6 +49,8 @@ return [
     'api_redirect_url'         => '',
     'api_only_forced'          => false,
     'api_disabled'             => true,
+
+    "footer_message"           => "This is a Demo Server.",
 
     "google_domain"            => "com",
     "google_language_site"     => "en",
@@ -69,25 +76,27 @@ return [
 
     "wikipedia_language"       => "en",
 
-    "invidious_url" => "https://y.com.sb",
+    "timezone"                 => "Europe/London",
+
+    "invidious_url"            => "https://y.com.sb",
 ];
 ```
 
-## Example Instance.JSON file
+## Example Instances.JSON file
 
 ```json
 {
     "instances": [
           {
-              "Name" : "My Search Page (API1) - API Only",
-              "URL" : "https://api1.mydomain.tld/"
+              "Name" : "Search Page (API1)",
+              "URL" : "https://mydomain.tld/api"
           },
           {
-              "Name" : "My Search Page (API2) - API Only",
-              "URL" : "https://api2.mydomain.tld/"
+              "Name" : "Search Page (API2)",
+              "URL" : "https://lorg.mydomain2.tld/api"
           },
           {
-              "Name" : "My Search Page (API1) - Not API Only",
+              "Name" : "Search Page (API3)",
               "URL" : "https://search.mydomain.tld/api"
           }
     ]
@@ -96,7 +105,7 @@ return [
 
 ## Docker Setup (Recommended)
 
-Available on [DockerHub](https://hub.docker.com/r/alandoyle/lorg) or for the [API only version](https://hub.docker.com/r/alandoyle/lorg-api-only)
+Available on [DockerHub](https://hub.docker.com/r/alandoyle/lorg) 
 ```bash
 docker pull alandoyle/lorg
 ```
@@ -142,3 +151,5 @@ services:
 |--------------------------|-----------------------------------|
 | `/var/www/lorg/config`   | path for lorg configuration files |
 | `/var/www/lorg/template` | path for lorg template files      |
+
+![lorg screenshot](/images/blog/lorg-screenshot.jpg)
