@@ -254,7 +254,7 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 - 2 MB Amiga Chip RAM
 - 1900 MB Fast RAM
 - Advanced Graphics Architecture (AGA)
-- ScanAGA VGA Scan Doubler
+- Indivision AGA MK2cr Flicker Fixer
 - 4 × 8-bit PCM channels (2 stereo channels)
 - Gotek OLED Floppy Drive
 - DVD-RW IDE
@@ -278,13 +278,14 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 - 128 MB Fast RAM
 - 32 GB SD/Compact Flash Drive on CFIDE adapter
 - Advanced Graphics Architecture (AGA)
+- ScanAGA VGA Scan Doubler
 - 4 × 8-bit PCM channels (2 stereo channels)
 - Gotek OLED Floppy Drive
 
 ---
 
 ## Amiga 500+
-**Lugh** – Amiga 500+ ([Amiga OS 3.2.1](https://www.hyperion-entertainment.com/index.php/news/1-latest-news/290-amigaos-42-for-all-classic-amigas-released-and-available))
+**Lugh** – Amiga 500+ ([Amiga OS 3.2.2](https://www.hyperion-entertainment.com/index.php/news/1-latest-news/290-amigaos-42-for-all-classic-amigas-released-and-available))
 
 {{< figure src="/images/hardware/Amiga-500+.jpg" alt="Amiga 500+" class="hardware-image" >}}
 
@@ -327,7 +328,8 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 - Rev 1.3 Motherboard
 - Kickstart 2.05
 - A630 Rev 2 Accelerator 68030 50Mhz
-- 1 MB Amiga Chip RAM
+- 1 MB Onboard Amiga Chip RAM
+- Amiga A600 PiggyBackNot RGB2HDMI 1Mb Expansion
 - Enhanced Chipset (ECS)
 - 4 × 8-bit PCM channels (2 stereo channels)
 - Gotek OLED Floppy Drive
@@ -336,14 +338,14 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 ---
 
 ## Amiga 600
-**Morrigan** – Amiga 600 ([Amiga OS 2.05](https://en.wikipedia.org/wiki/AmigaOS_version_history#Workbench_2.0,_2.04,_2.05,_2.1))
+**Morrigan** – Amiga 600 ([Amiga OS 3.1](https://en.wikipedia.org/wiki/AmigaOS_version_history#Amiga_OS_3.0,_3.1))
 
 {{< figure src="/images/hardware/Amiga-600.jpg" alt="Amiga 600" class="hardware-image" >}}
 
-- Rev 1.3 Motherboard
+- Rev 2B Motherboard
 - Kickstart 3.1
 - A630 Rev 3 Accelerator 68030 50Mhz inc FPU
-- 1 MB Amiga Chip RAM
+- 1 MB Onboard Amiga Chip RAM
 - Amiga A600 PiggyBackNot RGB2HDMI 1Mb Expansion
 - Enhanced Chipset (ECS)
 - 4 × 8-bit PCM channels (2 stereo channels)
