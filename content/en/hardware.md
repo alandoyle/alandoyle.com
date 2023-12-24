@@ -141,7 +141,7 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 - 512GB Toshiba KXG5AZNV512G M.2 NVMe SSD
 - 4Tb Samsung 870 QVO SATA III SSD
 - 8Tb Samsung 870 QVO SATA III SSD
-- PNY RTX-A2000 12GB PCI-Express 4.0 x16
+- GIGABYTE GeForce RTX 4060 OC Low Profile 8GB PCI-Express 4.0 x16
 - Realtek 7.1 CH (Realtek ALC887/897 Audio Codec) High Definition Audio
 - Realtek RTL8168 Gigabit Ethernet PCIe
 - 4x USB 3.0 ports, 4x rear
