@@ -146,8 +146,8 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 - Realtek RTL8168 Gigabit Ethernet PCIe
 - 4x USB 3.0 ports, 4x rear
 - 4x USB 2.0 ports, 2x rear, 2x front
-- Xbox 360 Microsoft Wireless Controller
-- Xbox 360 2.4GHz Wireless Wired Controller
+- Google Stadia Bluetooth Controller
+- Sony DualSense PS5 Wireless Controller - White
 - USB Bluetooth 5.0 dongle
 - USB iMon Soundgraph IR Receiver
 - Trust ODY Wireless Keyboard and Mouse
