@@ -19,6 +19,10 @@ cover:
 
 It uses Google to return Text and Image searches, while it's Youtube search results are handled by an [Invidious](https://invidious.io/) instance.
 
+A [demo site](https://search.lorg.dev) has been set up. This site is _NOT_ meant for daily usage and is, deliberately, rate-limited.
+
+---
+
 ## Features
 
 *lorg* has a number of interesting features.
@@ -29,6 +33,8 @@ It uses Google to return Text and Image searches, while it's Youtube search resu
  * It also has a simple API whereby and `ìnstances.json`file can be configured with a number of URLS to other *lorg* servers thus spreading the search load.
  * It normally uses a random User Agent but can be configured to send through the connection user Agent or a pre-configured User Agent.
 
+---
+
 ## Special searches
 
  * All searches with one or two words are automatically checked against Wikipedia. (e.g. [Star Wars](https://search.lorg.dev/search?q=star+wars&t=0&p=0))
@@ -37,6 +43,8 @@ It uses Google to return Text and Image searches, while it's Youtube search resu
  * Your External IP (e.g. '[my ip](https://search.lorg.dev/search?q=my+ip&t=0&p=0)')
  * Your User Agent (e.g. '[my user agent](https://search.lorg.dev/search?q=my+user+agent&t=0&p=0)')
  * Word definition (provided by [Free Dictionary API](https://dictionaryapi.dev/)) (e.g. '[run meaning](https://search.lorg.dev/search?q=run+meaning&t=0&p=0)')
+
+---
 
 ## Example Config File
 
@@ -82,6 +90,8 @@ return [
 ];
 ```
 
+---
+
 ## Example Instances.JSON file
 
 ```json
@@ -102,6 +112,8 @@ return [
     ]
 }
 ```
+
+---
 
 ## Docker Setup (Recommended)
 
@@ -151,5 +163,9 @@ services:
 |--------------------------|-----------------------------------|
 | `/var/www/lorg/config`   | path for lorg configuration files |
 | `/var/www/lorg/template` | path for lorg template files      |
+
+---
+
+## Screenshot
 
 ![lorg screenshot](/images/blog/lorg-screenshot.jpg)

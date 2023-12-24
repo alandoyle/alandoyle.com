@@ -27,8 +27,7 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 - 32Gb DDR4 2666 RAM
 - AMD® Vega 8 2Gb Integrated Graphics
 - NVIDIA GeForce GTX 1650 4GB Dedicated Graphics
-- 1TB Sabrent Rocket Q M.2 NVMe SSD
-- 2Tb Cruical MX-500 SATA III SSD
+- 4TB Crucial P3 CT4000P3SSD8 M.2 NVMe SSD
 - 1x USB 2.0 ports, 1x left
 - 2x USB 3.1 ports, 2x left
 - 15.6” HD screen (1920×1080), 120Hz 16:9 widescreen
@@ -47,13 +46,13 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 
 {{< figure src="/images/hardware/CiT-S506.jpg" alt="CiT S506" class="hardware-image" >}}
 
-- AMD Ryzen 5 3600 3.6GHz (up to 4.2 GHz) 6C/12T
+- Intel i7-6700 3.4GHz (up to 4.0 GHz) 4C/8T
 - Noctua NH-L12S Top-Flow Cooler
-- Gigabyte B450M DS3H AM4 Motherboard
-- Corsair Vengeance LPX Black 64GB (2x32GB) 3600MHz DDR4 RAM
-- 4TB Crucial P3 CT4000P3SSD8 M.2 NVMe SSD
-- 12Tb Western Digital WD120EDAZ SATA-III
-- PNY RTX-A2000 6GB PCI-Express 4.0 x16
+- ASUS Q170M-C LGA1151 Motherboard
+- Corsair Vengeance LPX Black 64GB (4x16GB) DDR4 2400 RAM
+- 512GB Patriot P220 SATA-III SSD
+- 2Tb Cruical MX-500 SATA III SSD
+- PNY RTX-A2000 12GB PCI-Express 4.0 x16
 - Realtek High Definition Audio
 - Realtek RTL8168 Gigabit Ethernet PCIe
 - 4x USB 3.0 ports, 4x rear
@@ -68,7 +67,7 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 ---
 
 ## Alienware Alpha R2
-**Dionysus** – emuShell Test Machine ([emuShell](https://emushell.dev))
+**Dionysus** – emuShell Test Machine ([Windows 11 Pro](https://www.microsoft.com/windows))
 
 {{< figure src="/images/hardware/Alienware-Alpha-R2.jpg" alt="Alienware Alpha R2" class="hardware-image" >}}
 
@@ -76,12 +75,12 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 - 16Gb DDR4 2133 SDRAM
 - nVidia GTX 960 4GB PCI-Express 3.0 x16
 - 256GB Patriot P300 M.2 NVMe SSD
-- 512GB Patriot P220 SATA-III
+- 480GB Yucun SATA-III
 - Intel Dual Band Wireless AC 3165 & Bluetooth 4.2
 - Intel HD Audio
 - Realtek ALC3234 for optical S/PDIF output
 - Realtek RTL8168 Gigabit Ethernet PCIe
-- 4x USB 2.0 port
+- 4x USB 3.0 port
 - 1x HDMI In port
 - 1x HDMI Out port
 - 1x Optical S/PDIF port
@@ -138,8 +137,8 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 - AMD Ryzen™ 7 5700X, AM4, Zen 3, 8 Core, 16 Thread, 3.4GHz, 4.6GHz Turbo, 36MB Cache, PCIe 4.0, 65W, CPU
 - Noctua NH-C14S Top-Flow Cooler
 - ASRock AMD Ryzen B550M Phantom Gaming 4 AM4 PCIe 4.0 mATX Motherboard
-- Corsair Vengeance LPX Black 32GB (4x8GB) DDR4 3200 RAM
-- 512GB Toshiba M.2 NVMe SSD
+- Corsair Vengeance LPX Black 64GB (2x32GB) 3600MHz DDR4 RAM
+- 512GB Toshiba KXG5AZNV512G M.2 NVMe SSD
 - 4Tb Samsung 870 QVO SATA III SSD
 - 8Tb Samsung 870 QVO SATA III SSD
 - PNY RTX-A2000 12GB PCI-Express 4.0 x16
@@ -184,11 +183,13 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 - Intel® Quad-Core Pentium® Processor J4205 (up to 2.6 GHz)
 - ASRock J4205-ITX Motherboard
 - 16Gb DDR3 1866 RAM
-- Intel UHD Graphics 505 GPU
-- 256GB Kingston RBUSNS8154P3256GJ3
-- 2x 12000Gb Western Digital WD120EDAZ SATA-III
-- 1x 10000Gb Seagate ST10000DM005 SATA-III
+- Intel Apollo Lake [HD Graphics 505] GPU
+- 256GB Kingston U-SNS8154P3 PCIe M.2 2280 SSD NVMe
+- 12Tb Seagate Exos x18 ST12000NM000J SATA-III
+- 12Tb Seagate Ironwolf Pro ST12000NE0008 SATA-III
+- 10Tb Seagate Barracuda ST10000DM005 SATA-III
 - ASMedia Technology Inc. ASM1062 Serial ATA Controller
+- MZHOU M.2 SSD M-Key NVME PCIe 3.0 x1 Adapter Card
 - Realtek ALC892 High Definition Audio
 - Realtek RTL8111GR Gigabit Ethernet PCIe
 - 2x USB 3.0 ports, 2x front
@@ -217,15 +218,14 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 ---
 
 ## Fractal Design Node 804
-**Ve** – VM Server ([Proxmox VE](https://www.proxmox.com/en/proxmox-ve))
+**Ve** – Backup Server ([TrueNAS SCALE](https://www.truenas.com/truenas-scale/))
 
 {{< figure src="/images/hardware/NODE-804.jpg" alt="NODE-804" class="hardware-image" >}}
 
-- Intel i7-6700 3.4GHz (up to 4.0 GHz) 4C/8T
-- Noctua NH-L12S Top-Flow Cooler
+- Intel i5-6500 3.2GHz (up to 3.6 GHz) 4C/4T
 - ASUS Q170M-C LGA1151 Motherboard
-- Corsair Vengeance LPX Black 64GB (4x16GB) DDR4 2400 RAM
-- 1TB Sabrent Rocket Q M.2 NVMe SSD
+- 32Gb DDR4 2400 RAM
+- 512GB Patriot P220 SATA-III
 - 3x 12Tb Seagate Ironwolf Pro ST12000NE0008 SATA-III
 - 2x 8Tb Seagate Barracuda ST8000DM004 SATA-III
 - 4Tb Seagate Barracuda ST4000DM000 SATA-III
@@ -341,7 +341,7 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 {{< figure src="/images/hardware/Amiga-600.jpg" alt="Amiga 600" class="hardware-image" >}}
 
 - Rev 1.3 Motherboard
-- Kickstart 2.05
+- Kickstart 3.1
 - A630 Rev 3 Accelerator 68030 50Mhz inc FPU
 - 1 MB Amiga Chip RAM
 - Amiga A600 PiggyBackNot RGB2HDMI 1Mb Expansion
