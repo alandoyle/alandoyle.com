@@ -85,7 +85,7 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 - 1x HDMI Out port
 - 1x Optical S/PDIF port
 - 1x Alienware Graphics Amplifier port
-- RALAN Xbox One S/X 2.4GHz Wireless Wired Controller
+- Sony DualSense PS5 Wireless Controller - Grey Camo
 
 ---
 
