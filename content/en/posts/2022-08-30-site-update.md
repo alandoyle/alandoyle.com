@@ -127,7 +127,7 @@ Now Cloudflare Pages will initialize the build environment, clone the Github rep
 
 Initially it took about 30 minutes for the new **projectname.pages.dev** domain to resolve as it had only just been set up, after it started resolving new updates to the site were easily viewable on this domain.
 
-If you don't need/want a custom domain the you're all done.
+If you don't need/want a custom domain then you're all done.
 
 ### Custom Domain
 
