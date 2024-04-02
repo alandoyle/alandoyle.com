@@ -125,7 +125,7 @@ Click the blue botton marked **Save and Deploy** in the bottom right to actually
 
 Now Cloudflare Pages will initialize the build environment, clone the Github repository, build the site and deploy it to Clouflare's global network.
 
-Initially it took about 30 minutes for the new **projectname.pages.dev** domain to resolve as it had only just been set up, after it started resolving new updates to the site were easily viewable un this domain.
+Initially it took about 30 minutes for the new **projectname.pages.dev** domain to resolve as it had only just been set up, after it started resolving new updates to the site were easily viewable on this domain.
 
 If you don't need/want a custom domain the you're all done.
 
