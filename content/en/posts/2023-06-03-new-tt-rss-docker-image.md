@@ -1,5 +1,6 @@
 ---
 title: "New Tiny Tiny RSS Docker Image"
+description: "*** NO LONGER SUPPORTED ***"
 faicon: "fa-solid fa-square-rss"
 date: 2023-06-03T12:19:27+01:00
 publishDate: 2023-06-03T12:19:27+01:00
@@ -11,6 +12,10 @@ cover:
     alt: "Tiny Tiny RSS & MySQL Logos"
     relative: false
 ---
+
+> **IMPORTANT NOTE:** MySQL support was removed from TT-RSS on 28th April 2025 (https://git.tt-rss.org/fox/tt-rss.git/commit/?id=4cb8a84df46d46bc325b6638defbdc4dc34151ed)
+
+> The latest version of this image in [Github](https://github.com/alandoyle/docker-tt-rss-mysql) and [DockerHub](https://hub.docker.com/r/alandoyle/tt-rss-mysql) is (https://git.tt-rss.org/fox/tt-rss.git/commit/?id=0e4b8bd6538f3062d34a3a06ab5531c70042de78) which is the *last* version to support MySQL.
 
 # Why a new Docker Tiny Tiny RSS image?
 

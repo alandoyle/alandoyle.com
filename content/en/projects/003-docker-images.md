@@ -30,7 +30,7 @@ docker pull alandoyle/dokuwiki
 ## Usage
 
 ```bash
-docker run --name=kodi-headless-novnc \
+docker run --name=dokuwiki \
   -d --init \
   -v <MY_CONF_PATH>:/var/www/html/conf \
   -v <MY_DATA_PATH>:/var/www/html/data \
@@ -129,7 +129,11 @@ services:
 
 ---
 
-# TT-RSS MYSQL
+# TT-RSS MYSQL (NO LONGER SUPPORTED)
+
+> **IMPORTANT NOTE:** MySQL support was removed from TT-RSS on 28th April 2025 (https://git.tt-rss.org/fox/tt-rss.git/commit/?id=4cb8a84df46d46bc325b6638defbdc4dc34151ed)
+
+> The latest version of this image in [Github](https://github.com/alandoyle/docker-tt-rss-mysql) and [DockerHub](https://hub.docker.com/r/alandoyle/tt-rss-mysql) is (https://git.tt-rss.org/fox/tt-rss.git/commit/?id=0e4b8bd6538f3062d34a3a06ab5531c70042de78) which is the *last* version to support MySQL.
 
 A simple Tiny Tiny RSS image which only supports MySQL with integrated feed updates.
 

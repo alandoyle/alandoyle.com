@@ -214,8 +214,6 @@ No language indicated, so no syntax highlighting.
 ```
 </code></pre>
 
-
-
 ```javascript
 var s = "JavaScript syntax highlighting";
 alert(s);
