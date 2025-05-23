@@ -96,6 +96,6 @@ Does this Docker image meet my needs? Well, yes it does, obviously!
 
 Hopefully, somemone else will find this image useful too.
 
-# Updates
-
-2025-05-11 - Updated to latest SearXNG code which fixes Google searches.
+{{< notification title="Updates" >}}
+  * 2025-05-11 - Updated to latest SearXNG code which fixes Google searches.
+{{< /notification >}}

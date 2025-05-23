@@ -129,11 +129,13 @@ services:
 
 ---
 
-# TT-RSS MYSQL (NO LONGER SUPPORTED)
+# TT-RSS MYSQL
 
-> **IMPORTANT NOTE:** MySQL support was removed from TT-RSS on 28th April 2025 (https://git.tt-rss.org/fox/tt-rss.git/commit/?id=4cb8a84df46d46bc325b6638defbdc4dc34151ed)
+{{< error title="MySQL is no longer supported in TT-RSS" >}}
+MySQL support was removed from TT-RSS on [28th April 2025](https://git.tt-rss.org/fox/tt-rss.git/commit/?id=4cb8a84df46d46bc325b6638defbdc4dc34151ed)
 
-> The latest version of this image in [Github](https://github.com/alandoyle/docker-tt-rss-mysql) and [DockerHub](https://hub.docker.com/r/alandoyle/tt-rss-mysql) is (https://git.tt-rss.org/fox/tt-rss.git/commit/?id=0e4b8bd6538f3062d34a3a06ab5531c70042de78) which is the *last* version to support MySQL.
+The latest version of this image in [Github](https://github.com/alandoyle/docker-tt-rss-mysql) and [DockerHub](https://hub.docker.com/r/alandoyle/tt-rss-mysql) is [0e4b8bd6538f3062d34a3a06ab5531c70042de78](https://git.tt-rss.org/fox/tt-rss.git/commit/?id=0e4b8bd6538f3062d34a3a06ab5531c70042de78) which is the *last* version of TT-RSS to support MySQL.
+{{< /error >}}
 
 A simple Tiny Tiny RSS image which only supports MySQL with integrated feed updates.
 

@@ -400,6 +400,6 @@ I use a basic swap file with a low swappiness on my production servers, I use a 
 
 Hopefully, you'll now have a better appreciation and understanding of the 3 main types of swap on Linux systems and while each has strengths and weakness they are all extremely useful and when anyone suggests removing swap altogether you'll know why having some swap is better than none.
 
-# Updates
-
-2023-08-01 - Special thanks to *Dawid Młynarczyk* for spotting a couple of typo's and suggesting some fixes. :+1:
+{{< notification title="Updates" >}}
+  * 2023-08-01 - Special thanks to *Dawid Młynarczyk* for spotting a couple of typo's and suggesting some fixes. :+1:
+{{< /notification >}}

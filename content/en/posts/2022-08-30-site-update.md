@@ -156,7 +156,7 @@ Was it worth switching from Wordpress to Hugo?
 
 Well for me I'd have to say absolutely and the continous _Build & Deploy_ provided by Cloudflare Pages along with Cloudflare's CDN's makes it well worth it for a small blog like mine. Now all I have to do is turn those drafts I saved into posts here...
 
-# Updates
-
-2025-05-23 - Cloudflare menu layout has changed, so updated instructions on where to find the new Pages location.
-2023-10-12 - Cloudflare site layout has changed, so updated instructions on where to find the new Pages location.
+{{< notification title="Updates" >}}
+  * 2025-05-23 - Cloudflare menu layout has changed, so updated instructions on where to find the new Pages location.
+  * 2023-10-12 - Cloudflare site layout has changed, so updated instructions on where to find the new Pages location.
+{{< /notification >}}

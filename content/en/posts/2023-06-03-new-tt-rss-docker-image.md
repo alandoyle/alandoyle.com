@@ -1,6 +1,5 @@
 ---
 title: "New Tiny Tiny RSS Docker Image"
-description: "*** NO LONGER SUPPORTED ***"
 faicon: "fa-solid fa-square-rss"
 date: 2023-06-03T12:19:27+01:00
 publishDate: 2023-06-03T12:19:27+01:00
@@ -13,9 +12,11 @@ cover:
     relative: false
 ---
 
-> **IMPORTANT NOTE:** MySQL support was removed from TT-RSS on 28th April 2025 (https://git.tt-rss.org/fox/tt-rss.git/commit/?id=4cb8a84df46d46bc325b6638defbdc4dc34151ed)
+{{< error title="MySQL is no longer supported in TT-RSS" >}}
+MySQL support was removed from TT-RSS on [28th April 2025](https://git.tt-rss.org/fox/tt-rss.git/commit/?id=4cb8a84df46d46bc325b6638defbdc4dc34151ed)
 
-> The latest version of this image in [Github](https://github.com/alandoyle/docker-tt-rss-mysql) and [DockerHub](https://hub.docker.com/r/alandoyle/tt-rss-mysql) is (https://git.tt-rss.org/fox/tt-rss.git/commit/?id=0e4b8bd6538f3062d34a3a06ab5531c70042de78) which is the *last* version to support MySQL.
+The latest version of this image in [Github](https://github.com/alandoyle/docker-tt-rss-mysql) and [DockerHub](https://hub.docker.com/r/alandoyle/tt-rss-mysql) uses a Git Hash of [0e4b8bd6538f3062d34a3a06ab5531c70042de78](https://git.tt-rss.org/fox/tt-rss.git/commit/?id=0e4b8bd6538f3062d34a3a06ab5531c70042de78) which is the *last* version of TT-RSS to support MySQL.
+{{< /error >}}
 
 # Why a new Docker Tiny Tiny RSS image?
 
@@ -188,6 +189,6 @@ Does this Docker image meet my needs? Well, yes it does, obviously!
 
 Hopefully, somemone else will find this image useful too.
 
-# Updates
-
-2025-05-23 - Changed Docker Image to use last known version of TT-RSS which supports MySQL.
+{{< notification title="Updates" >}}
+  * 2025-05-23 - Changed Docker Image to use last known version of TT-RSS which supports MySQL.
+{{< /notification >}}
