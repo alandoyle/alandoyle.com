@@ -107,7 +107,7 @@ Hosting with [Cloudflare](https://cloudflare.com) was a no-brainer. All my DNS i
 Here are the steps I followed to setup:
 
 1. Log in to the Cloudflare dashboard.
-1. Select **Account Home** > **Workers & Pages** from the lefthand side menu.
+1. Select **Account Home** > **Compute (Workers)** > **Workers & Pages** from the lefthand side menu.
 1. Select the blue button **Create application**
 1. On the **Create an application** page select the **Pages** tab (defaults to **Workers**) and click **Connect to Git** button.
 
@@ -158,4 +158,5 @@ Well for me I'd have to say absolutely and the continous _Build & Deploy_ provid
 
 # Updates
 
+2025-05-23 - Cloudflare menu layout has changed, so updated instructions on where to find the new Pages location.
 2023-10-12 - Cloudflare site layout has changed, so updated instructions on where to find the new Pages location.

@@ -211,7 +211,6 @@ print s
 
 ```
 No language indicated, so no syntax highlighting.
-But let's throw in a &lt;b&gt;tag&lt;/b&gt;.
 ```
 </code></pre>
 
@@ -228,8 +227,7 @@ print s
 ```
 
 ```
-No language indicated, so no syntax highlighting in Markdown Here (varies on Github).
-But let's throw in a <b>tag</b>.
+No language indicated, so no syntax highlighting.
 ```
 
 ## Tables
@@ -263,6 +261,7 @@ Colons can be used to align columns.
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
+<br/>
 There must be at least 3 dashes separating each header cell. The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
 
 Markdown | Less | Pretty

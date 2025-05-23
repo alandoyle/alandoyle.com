@@ -30,7 +30,7 @@ I went with option #2 as this meant I didn't need to deploy non-website files/fo
 
 ![Cloudflare](/images/blog/CF_logo_horizontal_blktype.png)
 
-I already use Cloudflare for my DNS needs, as well as a CDN and deploying this Hugo site through Cloudflare Pages so when I discovered that they have an API that allows the temporary DNS TXT records to be created/deleted vias Certbot it was a no-brainer to run with Cloudflare DNS and Certbot. All you need is a Cloudflare API Token for either the domain or entire account.
+I already use Cloudflare for my DNS needs, as well as a CDN and deploying this Hugo site through Cloudflare Pages so when I discovered that they have an API that allows the temporary DNS TXT records to be created/deleted via Certbot it was a no-brainer to run with Cloudflare DNS and Certbot. All you need is a Cloudflare API Token for either the domain or entire account.
 
 ---
 
@@ -38,7 +38,7 @@ I already use Cloudflare for my DNS needs, as well as a CDN and deploying this H
 
 To allow Certbot to interact with Cloudflare DNS we need to generate a Cloudflare API Token which is really simple.
 
-1. Login into the [Cloudflare dashboard](https://dash.cloudflare.com/profile/api-tokens/), go to **My Profile** > **API Tokens**.
+1. Login in first then go to the [Cloudflare API Tokens dashboard](https://dash.cloudflare.com/profile/api-tokens/), go to **My Profile** > **API Tokens**.
 
 ![Cloudflare API Tokens](/images/blog/cloudflare-api-tokens.jpg)
 
@@ -101,12 +101,16 @@ Once installed the script will add 3 new commands to */usr/local/bin*
 
 Generate a Lets Encrypt cetrificate.
 
-**Note:** ***-w*** adds wildcard subdomains to the certificate.
+**Notes:**
+***-w*** adds wildcard subdomains to the certificate.
+***-m*** adds multiple domains/subdomains to the certificate without wildcards.
 
 ```bash
-Usage:
+Examples:
    sudo gen-cert domain.com
    sudo gen-cert -w domain.com
+   sudo gen-cert -m domain.com sub1.domain.com sub2.domain.com
+   sudo gen-cert -m domain.com domain.net domain.org
 ```
 
 ## renew-certs
@@ -116,7 +120,7 @@ Renews all Lets Encrypt cetrificates on the system.
 **Note:** This command is called by cron to renew all the certificates automatically.
 
 ```bash
-Usage:
+Example:
    sudo renew-certs
 ```
 
@@ -128,7 +132,7 @@ This command tests the configuration to ensure we can generate Lets Encrypt cetr
 
 
 ```bash
-Usage:
+Example:
    sudo test-certbot domain.com
 ```
 
@@ -139,3 +143,7 @@ Usage:
 All-in-all Lets Encrypt's Certbot and Cloudflares DNS API Token support makes generating SSL certificates really easy, so now all my systems use proper SSL certificates, both internal and external systems.
 
 As an additional note, the reason I chose Docker instead of certbot from Ubuntu's APT or Snap Store is because I wanted to always use the latest official versions so I don't suddenly lose connectivity to my servers because the APT or Snap version is out of date and incompatible, which has happened in the past.
+
+# Update
+
+  - 2024-12-15 - Added support for multiple domains in a certificate.
