@@ -1,5 +1,5 @@
 ---
-title: "New SearxNG Docker Image"
+title: "New SearXNG Docker Image"
 faicon: "fa-brands fa-searchengin"
 date: 2023-05-27T22:18:55+01:00
 publishDate: 2023-05-27T22:18:55+01:00
@@ -8,13 +8,13 @@ draft: false
 tags: [docker,searxng]
 cover:
     image: "/images/logo/searxng-logo.png"
-    alt: "SearxNG Logo"
+    alt: "SearXNG Logo"
     relative: false
 ---
 
-# Why a new Docker SearxNG image?
+# Why a new Docker SearXNG image?
 
-Simple really. I couldn't find a simple, easy to configure SearxNG Docker image. I wnted to tweak the theme to my own liking and swap out the logos. None of the available Docker mages provided this functionality so I built my own image, based off the [official image](https://hub.docker.com/r/searxng/searxng).
+Simple really. I couldn't find a simple, easy to configure SearXNG Docker image. I wnted to tweak the theme to my own liking and swap out the logos. None of the available Docker mages provided this functionality so I built my own image, based off the [official image](https://hub.docker.com/r/searxng/searxng).
 
 ---
 
@@ -65,7 +65,7 @@ services:
 
 # What ports does the image use?
 
-The SearxNG image only needs one port. Port 8080, the alternative HTTP port.
+The SearXNG image only needs one port. Port 8080, the alternative HTTP port.
 
 | Port       | Description           |
 |------------|-----------------------|
@@ -84,9 +84,9 @@ The 3 paths needed for persistant data and configuration are displayed in the ta
 | `/usr/local/searxng/searx/static/themes/simple` | path for SearXNG theme files          |
 
 
-These Volumes are required so all SearxNG settings and themes are kept whenever the Docker container is restarted.
+These Volumes are required so all SearXNG settings and themes are kept whenever the Docker container is restarted.
 
-NOTE: On first run these Volumes are populated with the default files required to get SearxNG up and running and ready to begin configuring.
+NOTE: On first run these Volumes are populated with the default files required to get SearXNG up and running and ready to begin configuring.
 
 ---
 
@@ -95,3 +95,7 @@ NOTE: On first run these Volumes are populated with the default files required t
 Does this Docker image meet my needs? Well, yes it does, obviously!
 
 Hopefully, somemone else will find this image useful too.
+
+# Updates
+
+2025-05-11 - Updated to latest SearXNG code which fixes Google searches.

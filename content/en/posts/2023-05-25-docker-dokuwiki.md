@@ -116,3 +116,7 @@ Hopefully, somemone else will find this image useful too.
 ADDENDUM:
 Initially, I was using the latest PHP 8.2 image as a base but Dokuwiki doesn't seem to work correctly with PHP 8.2 yet so I dropped it back to the latest PHP 7 and all funny behaviour stopped.
 ```
+
+# Updates
+
+2025-05-23 - Updated to 2025-05-14 version of Dokuwiki.

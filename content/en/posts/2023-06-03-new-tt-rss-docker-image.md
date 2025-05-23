@@ -187,3 +187,7 @@ NOTE: On first run these Volumes are populated with the default files required t
 Does this Docker image meet my needs? Well, yes it does, obviously!
 
 Hopefully, somemone else will find this image useful too.
+
+# Updates
+
+2025-05-23 - Changed Docker Image to use last known version of TT-RSS which supports MySQL.
