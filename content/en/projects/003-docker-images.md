@@ -41,8 +41,6 @@ docker run --name=dokuwiki \
 Docker compose example:
 
 ```yaml
-version: "3"
-
 services:
   dokuwiki:
    image: alandoyle/dokuwiki:latest
@@ -97,8 +95,6 @@ docker run --name=searxng \
 Docker compose example:
 
 ```yaml
-version: "3"
-
 services:
   searxng:
    image: alandoyle/searxng:latest
@@ -229,8 +225,6 @@ docker run --name=tt-rss-mysql \
 Docker compose example:
 
 ```yaml
-version: "3"
-
 services:
   mysql:
     image: mysql:8.0
