@@ -49,7 +49,6 @@ Seeing as I run all my local services in Docker, inside an LXC container on Prox
 
 ``` yaml
 ---
-version: '3.9'
 services:
 
   ## MySQL 8.0
@@ -74,6 +73,7 @@ services:
       - 80:3000
     volumes:
       - ./gogs/data:/data
+      - ./gogs/backups:/backup
     environment:
       - RUN_CROND=true
       - BACKUP_INTERVAL=1d
@@ -180,6 +180,21 @@ And finally under **Admin Account Settings** I *always* set up an Administrative
 Once finished click the blue **Install GOGS** button. This will now complete the installation and log you in as the Administrative User if one was set up.
 
 From here you'll be able to create non-Administrative users and start using your Git server.
+
+---
+
+# Backup/Restore
+
+As configured above in the **docker-compose.yml** file backups will occur once per day and retain 14 days worth of backups under the *./gogs/backups* volume.
+The backup process will produce a *gogs-backup-[TIMESTAMP].zip* daily.
+
+To restore a backup simply execute the following command:
+
+``` bash
+docker exec -it gogs /app/gogs/gogs --from="gogs-backup-xxx.zip"
+```
+
+> Further information about backups can be found at the discussion page "[How to backup, restore and migrate](https://github.com/gogs/gogs/discussions/6876)" on the [GOGS Github Repository](https://github.com/gogs/gogs/).
 
 ---
 
