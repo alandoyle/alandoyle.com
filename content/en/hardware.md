@@ -8,7 +8,7 @@ weight: 3
 ShowToc: true
 cover:
     image: "/images/covers/christian-wiediger-c3ZWXOv1Ndc-unsplash_cropped.jpg"
-    alt: "featured image"
+    alt: "a close up of the cpu board of a computer - Christian Wiediger (https://unsplash.com/photos/c3ZWXOv1Ndc)"
     relative: false
 ---
 
@@ -19,21 +19,21 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 # PCs
 
 ## ASUS FX505DT-AL086T
-**Nyx** – Main Windows Development Machine ([Windows 11 Pro](https://www.microsoft.com/windows))
+**Nyx** – Windows Gaming Laptop ([Windows 11 Pro](https://www.microsoft.com/windows))
 
 {{< figure src="/images/hardware/FX505DT-AL086T.jpg" alt="ASUS TUF FX505DT-AL086T" class="hardware-image" >}}
 
 - AMD Ryzen R5-3550H / 2.1GHz Max Turbo Speed 3.7GHz Quad Core (8 Threads) Processor
-- 32Gb DDR4 2666 RAM
+- 16b DDR4 3200 RAM
 - AMD® Vega 8 2Gb Integrated Graphics
 - NVIDIA GeForce GTX 1650 4GB Dedicated Graphics
-- 4TB Crucial P3 CT4000P3SSD8 M.2 NVMe SSD
-- 1x USB 2.0 ports, 1x left
-- 2x USB 3.1 ports, 2x left
+- 512GB Patriot P300 M.2 NVMe SSD
+- USB 2.0 ports (1)
+- USB 3.1 ports (2)
 - 15.6” HD screen (1920×1080), 120Hz 16:9 widescreen
-- Realtek High Definition Audio
+- Realtek HD Audio
 - DTS® Headphone: X®
-- Realtek RTL8168 Gigabit Ethernet PCI-E LAN
+- Realtek RTL8168 Gigabit Ethernet PCIe LAN
 - Realtek 8821CE AC Wireless Network Adapter
 - Realtek Bluetooth 4.2 Adapter
 - ELAN 1200 Touchpad
@@ -41,72 +41,98 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 
 ---
 
-## CiT S506
+## Beelink SER5 Max
 **Erebus** – Main Windows Development Machine ([Windows 11 Pro](https://www.microsoft.com/windows))
 
-{{< figure src="/images/hardware/CiT-S506.jpg" alt="CiT S506" class="hardware-image" >}}
+{{< figure src="/images/hardware/Beelink-SER5-Max.jpg" alt="Beelink SER5 Max" class="hardware-image" >}}
 
-- Intel i7-6700 3.4GHz (up to 4.0 GHz) 4C/8T
-- Noctua NH-L12S Top-Flow Cooler
-- ASUS Q170M-C LGA1151 Motherboard
-- Corsair Vengeance LPX Black 64GB (4x16GB) DDR4 2400 RAM
-- 512GB Patriot P220 SATA-III SSD
-- 2Tb Cruical MX-500 SATA III SSD
-- PNY RTX-A2000 12GB PCI-Express 4.0 x16
-- Realtek High Definition Audio
+- AMD Ryzen 7 5800H (8C/16T, 4M Cache, 3.2GHz up to 4.4GHz)
+- Crucial 32Gb DDR4 3200 RAM
+- 4TB Crucial P3 CT4000P3SSD8 M.2 NVMe SSD
+- AMD Radeon RX Vega 8 Graphics 4GB
+- Intel Bluetooth 5.2
+- Intel Wifi 6 AX200 160MHz
+- Realtek HD Audio
 - Realtek RTL8168 Gigabit Ethernet PCIe
-- 4x USB 3.0 ports, 4x rear
-- 6x USB 2.0 ports, 4x rear, 2x front
+- USB 3.2 ports (3)
+- USB 2.0 port (1)
+- USB C port (1)
 - Xbox 360 2.4GHz Wireless Wired Controller
-- Dell U2410F Series 24" LCD (1920×1200)
-- MSI G321Q 32" Flat Gaming IPS (2560x1440)
-- havit Wired RGB Mouse
-- havit Wired RGB Mechanical Gaming Keyboard
+- Logitech G G502 HERO Wired Mouse
+- Keychron C3 Pro Wired Mechanical Gaming Keyboard
 - MT-VIKI 4 port KVM HDMI Switch
-
----
-
-## Alienware Alpha R2
-**Dionysus** – emuShell Test Machine ([Windows 11 Pro](https://www.microsoft.com/windows))
-
-{{< figure src="/images/hardware/Alienware-Alpha-R2.jpg" alt="Alienware Alpha R2" class="hardware-image" >}}
-
-- Intel i7-6700T 2.8GHz (up to 3.6 GHz) 4C/8T 35W
-- 16Gb DDR4 2133 SDRAM
-- nVidia GTX 960 4GB PCI-Express 3.0 x16
-- 256GB Patriot P300 M.2 NVMe SSD
-- 480GB Yucun SATA-III
-- Intel Dual Band Wireless AC 3165 & Bluetooth 4.2
-- Intel HD Audio
-- Realtek ALC3234 for optical S/PDIF output
-- Realtek RTL8168 Gigabit Ethernet PCIe
-- 4x USB 3.0 port
-- 1x HDMI In port
-- 1x HDMI Out port
-- 1x Optical S/PDIF port
-- 1x Alienware Graphics Amplifier port
-- Sony DualSense PS5 Wireless Controller - Grey Camo
+- J5Create USB™ 3.0 to Dual HDMI™ Multi-Monitor Adapter (JUA365)
+- Dell U2410F Series 24" LCD (1920×1200)
+- Dell E2314H Series 23" LED (1920×1080)
+- MSI G321Q 32" Flat Gaming IPS (2560x1440)
 
 ---
 
 ## Teclast F5
-**Ares** – Portable Development Laptop ([Pop!_OS](https://pop.system76.com/))
+**Ares** – Portable Linux Laptop ([FydeOS](https://fydeos.io/))
 
 {{< figure src="/images/hardware/Teclast-F5.jpg" alt="Teclast F5" class="hardware-image" >}}
 
 - Intel Celeron N4100 1.1GHz (up to 2.4 GHz) Quad Core
 - 8Gb DDR4 2400 SDRAM
 - Intel UHD Graphics 600 GPU
-- 256Gb 2242 SSD
+- 256Gb 2242 SSD SATA-III
 - Intel AVStream Camera 2MP
 - 11.6” FHD screen (1920×1080), 16:9 widescreen touchscreen
 - Intel SST Audio
 - Intel Dual Band Wireless AC 3165 & Bluetooth 4.2
-- 1x USB C port
-- 1x Micro USB port
-- 1x Mini-HDMI port
+- USB C port (1)
+- Micro USB port (1)
+- Mini-HDMI port
 - Alogic USB-C Travel Dock
 - Rechargeable Bluetooth Mouse
+
+---
+
+## Antec Fusion
+**Elysium** – emuShell Gaming PC ([Windows 11 Pro](https://www.microsoft.com/windows))
+
+{{< figure src="/images/hardware/Antec-Fusion.jpg" alt="Antec Fusion" class="hardware-image" >}}
+
+- AMD Ryzen™ 7 5700X, AM4, Zen 3, 8 Core, 16 Thread, 3.4GHz, 4.6GHz Turbo, 36MB Cache, PCIe 4.0, 65W, CPU
+- Noctua NH-C14S Top-Flow Cooler
+- ASRock AMD Ryzen B550M Phantom Gaming 4 AM4 PCIe 4.0 mATX Motherboard
+- 64GB Corsair Vengeance LPX Black (2x32GB) 3600MHz DDR4 RAM
+- 512GB Toshiba KXG5AZNV512G M.2 NVMe SSD
+- 8Tb Samsung 870 QVO SATA-III SSD
+- 4Tb Seagate Barracuda ST4000DM000 SATA-III (2)
+- GIGABYTE GeForce RTX 4060 OC Low Profile 8GB PCIexpress 4.0 x16
+- Realtek 7.1 CH (Realtek ALC887/897 Audio Codec) HD Audio
+- Realtek RTL8168 Gigabit Ethernet PCIe
+- USB 3.0 ports (4)
+- USB 2.0 ports (4)
+- Google Stadia Bluetooth Controller (2)
+- Sony DualSense PS5 Wireless Controller - White
+- USB Bluetooth 5.0 dongle
+- USB iMon Soundgraph IR Receiver
+- Trust ODY Wireless Keyboard and Mouse
+
+---
+
+## Alienware Alpha R2
+**Tartarus** – emuShell Test Machine ([Windows 11 Pro](https://www.microsoft.com/windows))
+
+{{< figure src="/images/hardware/Alienware-Alpha-R2.jpg" alt="Alienware Alpha R2" class="hardware-image" >}}
+
+- Intel i7-6700T 2.8GHz (up to 3.6 GHz) 4C/8T 35W
+- 16Gb DDR4 2133 SDRAM
+- nVidia GTX 960 4GB PCIe 3.0 x16
+- 500GB Crucial P3 Plus PCIe M.2 2280 SSD NVMe
+- Intel Dual Band Wireless AC 3165 & Bluetooth 4.2
+- Intel HD Audio
+- Realtek ALC3234 for optical S/PDIF output
+- Realtek RTL8168 Gigabit Ethernet PCIe
+- USB 3.0 port (4)
+- HDMI In port
+- HDMI Out port
+- Optical S/PDIF port
+- Alienware Graphics Amplifier port
+- Sony DualSense PS5 Wireless Controller - Grey Camo
 
 ---
 
@@ -124,119 +150,111 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 - 10.1 FHD screen (1280×800), 16:9 multi-touch widescreen
 - Intel SST Audio
 - Realtek RTL8723BS Wireless LAN 802.11n & Bluetooth 4.0
-- 2x USB 3.0 ports
-- 1x Mini-HDMI port
+- USB 2.0 ports (2)
+- Mini-HDMI port
 
 ---
 
-## Antec Fusion
-**Elysium** – emuShell Gaming PC ([Windows 11 Pro](https://www.microsoft.com/windows))
+# Router
 
-{{< figure src="/images/hardware/Antec-Fusion.jpg" alt="Antec Fusion" class="hardware-image" >}}
+## AIOPCWA X86-P5
+**Hel** – Router ([OPNSense](https://www.opnsense.org))
 
-- AMD Ryzen™ 7 5700X, AM4, Zen 3, 8 Core, 16 Thread, 3.4GHz, 4.6GHz Turbo, 36MB Cache, PCIe 4.0, 65W, CPU
-- Noctua NH-C14S Top-Flow Cooler
-- ASRock AMD Ryzen B550M Phantom Gaming 4 AM4 PCIe 4.0 mATX Motherboard
-- Corsair Vengeance LPX Black 64GB (2x32GB) 3600MHz DDR4 RAM
-- 512GB Toshiba KXG5AZNV512G M.2 NVMe SSD
-- 4Tb Samsung 870 QVO SATA III SSD
-- 8Tb Samsung 870 QVO SATA III SSD
-- GIGABYTE GeForce RTX 4060 OC Low Profile 8GB PCI-Express 4.0 x16
-- Realtek 7.1 CH (Realtek ALC887/897 Audio Codec) High Definition Audio
-- Realtek RTL8168 Gigabit Ethernet PCIe
-- 4x USB 3.0 ports, 4x rear
-- 4x USB 2.0 ports, 2x rear, 2x front
-- Google Stadia Bluetooth Controller
-- Sony DualSense PS5 Wireless Controller - White
-- USB Bluetooth 5.0 dongle
-- USB iMon Soundgraph IR Receiver
-- Trust ODY Wireless Keyboard and Mouse
+{{< figure src="/images/hardware/AIOPCWA-X86-P5.jpg" alt="AIOPCWA X86-P5" class="hardware-image" >}}
+- Intel® Processor N100 (4C/4T, 6M Cache, up to 3.40 GHz)
+- 8GB LPDDR5 4800 RAM
+- 128GB M.2 SSD nVME
+- Intel Alder Lake-N [UHD Graphics]
+- Alder Lake-N PCH HD Audio Controller
+- Ethernet Controller I226-V 2.5G LAN (2)
+- USB 3.2 (10Gbps) port (2)
+- USB 2.0 port (4)
+- HDMI port (2)
 
 ---
 
-# Servers
+# Proxmox VE Servers
 
-## Beelink U59 Pro
-**Hel** – VM Server ([Proxmox VE](https://www.proxmox.com/en/proxmox-ve))1
+## SIF
+**CiT S015B** – VM/Container Server #1 ([Proxmox VE](https://www.proxmox.com/en/proxmox-virtual-environment/overview))
 
-{{< figure src="/images/hardware/Beelink-U59-Pro.jpg" alt="Beelink U59 Pro" class="hardware-image" >}}
+{{< figure src="/images/hardware/CiT-S015B.jpg" alt="CiT S015B" class="hardware-image" >}}
 
-- Intel Celeron N5105 (4C/4T, 4M Cache, 2.0GHz up to 2.9GHz)
-- 16Gb DDR4 2666 RAM
-- 512GB M.2 SSD SATA-III
-- Intel JasperLake [UHD Graphics]
-- Intel Corporation Jasper Lake HD Audio
-- Intel Bluetooth 4.0
-- Intel(R) Dual Band Wireless AC 3165
-- 2x Realtek RTL8111 PCIe Gigabit LAN
-- Realtek RTL8153 USB 3.0 Gigabit LAN
-- 4x USB 3.0 port
-- 1x USB C port
-
----
-
-## Kolink Satellite
-**Njord** – VM Server ([Proxmox VE](https://www.proxmox.com/en/proxmox-ve))
-
-{{< figure src="/images/hardware/Kolink-Satellite.jpg" alt="Kolink Satellite" class="hardware-image" >}}
-
-- Intel® Quad-Core Pentium® Processor J4205 (up to 2.6 GHz)
-- ASRock J4205-ITX Motherboard
-- 16Gb DDR3 1866 RAM
-- Intel Apollo Lake [HD Graphics 505] GPU
-- 256GB Kingston U-SNS8154P3 PCIe M.2 2280 SSD NVMe
-- 12Tb Seagate Exos x18 ST12000NM000J SATA-III
-- 12Tb Seagate Ironwolf Pro ST12000NE0008 SATA-III
+- Intel® Core™ i5-8500T (6C/6T, 9M Cache, up to 3.5 GHz)
+- GIGABYTE Z370M-DS3H LGA1151 Motherboard
+- Intel H370 Chipset
+- 64Gb DDR4 2400 RAM
+- Intel HD Graphics 630 1Gb Graphics
+- PNY nVidia RTX A2000 12Gb PCIe Graphics
+- 512Gb SPCC Solid State Disk SATA-III
+- 18Tb Seagate Exos x18 ST18000NM000J SATA-III
 - 10Tb Seagate Barracuda ST10000DM005 SATA-III
-- ASMedia Technology Inc. ASM1062 Serial ATA Controller
-- MZHOU M.2 SSD M-Key NVME PCIe 3.0 x1 Adapter Card
-- Realtek ALC892 High Definition Audio
-- Realtek RTL8111GR Gigabit Ethernet PCIe
-- 2x USB 3.0 ports, 2x front
-- 2x USB 3.1 ports, 2x rear
-- 2x USB 2.0 ports, 2x rear
+- 8Tb Seagate Barracuda ST8000DM004 SATA-III
+- Realtek® ALC887 7.1-Channel HD Audio
+- Realtek® 8169 Gigabit Ethernet PCIe
+- Intel I226-V Dual Port 2.5Gb Ethernet PCIe
+- USB 3.0 ports (6)
+- USB 2.0 ports (2)
 
 ---
 
-## Beelink SER5 Max
-**Tyr** – VM Server ([Proxmox VE](https://www.proxmox.com/en/proxmox-ve))
-
-{{< figure src="/images/hardware/Beelink-SER5-Max.jpg" alt="Beelink SER5 Pro" class="hardware-image" >}}
-
-- AMD Ryzen 7 5800H (8C/16T, 4M Cache, 3.2GHz up to 4.4GHz)
-- Crucial 32Gb DDR4 3200 RAM
-- Crucial P3 Plus 500GB PCIe M.2 2280 SSD NVMe
-- AMD Radeon RX Vega 8 Graphics 3GB
-- Intel Bluetooth 5.2
-- Intel Wifi 6 AX200 160MHz
-- Realtek High Definition Audio
-- Realtek RTL8168 Gigabit Ethernet PCIe
-- 3x USB 3.2 ports
-- 1x USB 2.0 port
-- 1x USB C port
-
----
-
-## Fractal Design Node 804
-**Ve** – Backup Server ([TrueNAS SCALE](https://www.truenas.com/truenas-scale/))
+## TYR
+**Fractal Design Node 804** – VM/Container Server #2 ([Proxmox VE](https://www.proxmox.com/en/proxmox-virtual-environment/overview))
 
 {{< figure src="/images/hardware/NODE-804.jpg" alt="NODE-804" class="hardware-image" >}}
 
-- Intel i5-6500 3.2GHz (up to 3.6 GHz) 4C/4T
+- Intel i7-6700T 3.2GHz (up to 3.6 GHz) 4C/8T
 - ASUS Q170M-C LGA1151 Motherboard
-- 32Gb DDR4 2400 RAM
-- 512GB Patriot P220 SATA-III
-- 3x 12Tb Seagate Ironwolf Pro ST12000NE0008 SATA-III
-- 2x 8Tb Seagate Barracuda ST8000DM004 SATA-III
-- 4Tb Seagate Barracuda ST4000DM000 SATA-III
-- 4Tb Seagate Barracuda ST4000DM004 SATA-III
-- Realtek High Definition Audio
-- Realtek RTL8168 Gigabit Ethernet PCIe
-- ASMedia Technology Inc. ASM1062 4-port Serial ATA Controller
-- 4x Noctua NF-P12 redux-900, Ultra Quiet Silent Fans
-- 2x USB 3.0 ports, 2x front
-- 2x USB 3.1 ports, 2x rear
-- 2x USB 2.0 ports, 2x rear
+- 32Gb DDR4 2133 RAM
+- Intel HD Graphics 530 Graphics
+- 512GB Patriot P220 SATA-III (2)
+- 12Tb Seagate Ironwolf Pro ST12000NE0008 SATA-III (4)
+- 12Tb Seagate Exos x18 ST12000NM000J-2T SATA-III
+- 12Tb Seagate Enterprise ST12000NM0127 SATA-III
+- LSI SAS 2308 6G PCI E X8 Array Card (IT Mode)
+- Intel I210 Gigabit Ethernet PCIe
+- Noctua NF-P12 redux-900, Ultra Quiet Silent Fans (4)
+- USB 3.0 ports (4)
+- USB 2.0 ports (2)
+
+---
+
+## SYN
+**Dell Optiplex 3060 Micro** – VM/Container Server #3 ([Proxmox VE](https://www.proxmox.com/en/proxmox-virtual-environment/overview))
+
+{{< figure src="/images/hardware/Dell-Optiplex-3060-Micro.jpg" alt="Dell Optiplex 3060 Micro" class="hardware-image" >}}
+
+- Intel® Core™ i5-8400T (6C/6T, 9M Cache, up to 3.3 GHz)
+- Intel H370 Chipset
+- 16Gb DDR4 2666 RAM
+- 256GB M.2 SSD nVME
+- 1TB Silicon Power SSD SATA-III
+- Intel HD Graphics 630 Graphics
+- Realtek ALC3234 HD Audio
+- Realtek RTL8111HSD-CG PCIe Gigabit LAN
+- USB 3.1 Gen 1 ports (4)
+- USB 2.0 ports (2)
+
+---
+
+# Debian Servers
+
+## VE
+**KASEPE T9PLUS** – Docker Server ([Debian 12 (Bookworm)](https://www.debian.org))
+
+{{< figure src="/images/hardware/T9PLUS.jpg" alt="KASEPE T9PLUS" class="hardware-image" >}}
+
+- Intel N95 (4C/4T, 6M Cache, 2.0GHz up to 3.4GHz)
+- 8GB LPDDR5 4800 RAM
+- 256GB M.2 SSD SATA-III
+- Intel Alder Lake-N [UHD Graphics]
+- Intel Corporation Alder Lake-N PCH HD Audio Controller
+- Intel Bluetooth 4.2
+- Intel(R) Dual Band Wireless AC 3165
+- Realtek RTL8111 PCIe Gigabit LAN (2)
+- Realtek RTL8852BE Wireless LAN 802.11ax PCIe NIC
+- USB 3.1 port (3)
+- HDMI port (3)
 
 ---
 
@@ -290,7 +308,7 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 {{< figure src="/images/hardware/Amiga-500+.jpg" alt="Amiga 500+" class="hardware-image" >}}
 
 - Rev 8 Motherboard
-- Kickstart 3.2.1
+- Kickstart 3.2.2
 - PiStorm Accelerator Card (Pi3A - Musashi)
 - Motorola 68040 @ 75 MHz
 - 2 MB Amiga Chip RAM
@@ -305,12 +323,12 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 ---
 
 ## Amiga 500+
-**Cernunnos** – Amiga 500+ ([Amiga OS 3.1](https://en.wikipedia.org/wiki/AmigaOS_version_history#Amiga_OS_3.0,_3.1))
+**Cernunnos** – Amiga 500+ ([Amiga OS 3.2.2](https://www.hyperion-entertainment.com/index.php/news/1-latest-news/290-amigaos-42-for-all-classic-amigas-released-and-available))
 
 {{< figure src="/images/hardware/Amiga-500+.jpg" alt="Amiga 500+" class="hardware-image" >}}
 
-- Rev 8 Motherboard
-- Kickstart 3.1
+- Amiga 500++ Ramixx500 RED Motherboard
+- Kickstart 1.3/3.2
 - Motorola 68000 @ 7 MHz
 - 1 MB Amiga Chip RAM
 - Enhanced Chipset (ECS)
@@ -327,8 +345,9 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 
 - Rev 1.3 Motherboard
 - Kickstart 2.05
-- A630 Rev 2 Accelerator 68030 50Mhz
-- 1 MB Onboard Amiga Chip RAM
+- Motorola 68030 CPU @ 50Mhz (A630 Rev 2 Accelerator)
+- 2 MB Onboard Amiga Chip RAM
+- 64 MB Fast RAM
 - Amiga A600 PiggyBackNot RGB2HDMI 1Mb Expansion
 - Enhanced Chipset (ECS)
 - 4 × 8-bit PCM channels (2 stereo channels)
@@ -344,11 +363,57 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 
 - Rev 2B Motherboard
 - Kickstart 3.1
-- A630 Rev 3 Accelerator 68030 50Mhz inc FPU
-- 1 MB Onboard Amiga Chip RAM
+- Motorola 68030 CPU @ 50Mhz (A630 Rev 3 Accelerator)
+- Motorola 68882 FPU @ 50MHz
+- 2 MB Onboard Amiga Chip RAM
+- 64 MB Fast RAM
 - Amiga A600 PiggyBackNot RGB2HDMI 1Mb Expansion
 - Enhanced Chipset (ECS)
 - 4 × 8-bit PCM channels (2 stereo channels)
 - Gotek OLED Floppy Drive
 - 32 GB SD IDE on SD2IDE adapter
+- TruMouse Amiga 600 Keyboard Pin Connector Adapter Board - Pins for A500 and Ext keyboard
+- Commodore CDTV Keyboard CD-1221 (Black keycaps)
+
 ---
+
+# Apple
+
+## Mac Mini 2014 (A1347)
+**Camaxtli** – Mac Mini 2014  ([macOS](https://www.apple.com/uk/macos/))
+
+{{< figure src="/images/hardware/Mac-Mini-2014.jpg" alt="Mac Mini" class="hardware-image" >}}
+
+- Intel Core i7 3.0GHz 4th Gen 4578U 2C/4T
+- Intel Graphics Iris 5100
+- 16GB LPDDR3 RAM
+- 512GB SDD SATA
+- macOS 15 Sequoia
+- AirPort Extreme Wi-Fi (802.11ac)
+- Bluetooth 4.0
+- Gigabit Ethernet
+- Thunderbolt 2 (2)
+- USB 3.0 (4)
+- SDXC Card slot
+
+---
+
+## Mac Mini G4 2004 (A1103)
+**Metzli** – Mac Mini G4 2004  ([MorphOS](https://www.morphos.com/))
+
+{{< figure src="/images/hardware/Mac-Mini-G4.jpg" alt="Mac Mini G4" class="hardware-image" >}}
+
+- PowerPC 7447a (G4) 1.42GHz
+- ATI Radeon 9200 with 32 MB of DDR SDRAM (AGP 4X Support)
+- 1GB PC2700 DDR SDRAM
+- 80GB HDD IDE (4200  RPM)
+- 8X "Combo Drive"
+- Internal AirPort Extreme (802.11b/802.11g) and Bluetooth support.
+- 10/100Base-T Ethernet
+- 56 kbps modem supports v.92 standard
+- USB 2.0 (2)
+- Firewire 400 (1)
+- MorphOS 3.19
+- Apple A1243 Wired USB Aluminium Keyboard
+- Apple A1152 Mighty Mouse
+

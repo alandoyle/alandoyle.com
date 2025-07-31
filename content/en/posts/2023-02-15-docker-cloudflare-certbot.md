@@ -5,7 +5,7 @@ publishDate: 2023-02-15T15:25:12Z
 faicon: "fa-brands fa-cloudflare"
 images: []
 draft: false
-tags: [docker,updates,cloudflare,hugo]
+tags: [docker,cloudflare,letsencrypt,acme]
 aliases: [/blog/docker-cloudflare-certbot/]
 cover:
     image: "/images/logo/letsencrypt-logo.png"
