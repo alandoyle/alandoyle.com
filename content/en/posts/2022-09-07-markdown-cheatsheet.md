@@ -6,6 +6,7 @@ faicon: "fa-brands fa-markdown"
 date: "2022-09-07T23:14:12"
 publishDate: "2022-09-07T23:14:12"
 tags: ["markdown", "examples", "cheatsheet"]
+summary: A very handy breakdown of markdown syntax.
 draft: false
 showToc: false
 cover:

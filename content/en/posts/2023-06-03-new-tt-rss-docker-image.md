@@ -6,6 +6,7 @@ publishDate: 2023-06-03T12:19:27+01:00
 images: []
 draft: false
 tags: [docker,tt-rss]
+summary: A simple, easy to configure [Tiny Tiny RSS](https://tt-rss.org/) Docker image with MySQL support.
 cover:
     image: "/images/logo/ttrss-logo.png"
     alt: "Tiny Tiny RSS & MySQL Logos"

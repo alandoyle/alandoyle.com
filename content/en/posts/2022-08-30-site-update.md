@@ -8,6 +8,7 @@ faicon: "fa-solid fa-globe"
 images: []
 draft: false
 tags: [updates,cloudflare,hugo]
+summary: Where is the Wordpress site and what's going on.
 ShowToc: true
 cover:
     image: "/images/covers/sai-kiran-anagani-5Ntkpxqt54Y-unsplash_cropped.jpg"

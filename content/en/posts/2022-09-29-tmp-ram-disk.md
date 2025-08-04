@@ -6,7 +6,8 @@ date: 2022-09-29T00:13:08+01:00
 publishDate: 2022-09-29T00:13:08+01:00
 images: []
 draft: false
-tags: ["ubuntu","tips","performance"]
+tags: ["ubuntu","debian","tips","performance"]
+summary: How to se up /tmp as a RAM disk and why it's useful.
 cover:
     image: "/images/blog/harrison-broadbent-5tLfQGURzHM-unsplash_cropped.jpg"
     alt: "green RAM stick - Harrison Broadbent (https://unsplash.com/photos/5tLfQGURzHM)"

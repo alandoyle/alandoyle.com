@@ -6,6 +6,7 @@ publishDate: 2023-05-25T23:47:05+01:00
 images: []
 draft: false
 tags: [docker,dokuwiki]
+summary: A simple Dokuwiki Docker Image with some QoL addons.
 cover:
     image: "/images/covers/ian-taylor-jOqJbvo1P9g-unsplash_cropped.jpg"
     alt: "featured image"
@@ -22,7 +23,7 @@ I tried the [linuxserver.io image](https://hub.docker.com/r/linuxserver/dokuwiki
 
 + [github-tags-en smileys](https://github.com/davidjimenez75/dokuwiki-smileys-local) by Davidjimenez7
 + The  [Bootstrap 3 theme](https://github.com/giterlizzi/dokuwiki-template-bootstrap3) by Giuseppe Di Terlizzi
-+ Clean URL's using .htaccess (via mod_rewrite). 
++ Clean URL's using .htaccess (via mod_rewrite).
 
 ---
 
@@ -34,7 +35,7 @@ I actually ran this in "Production" for over a month, and it works really well, 
 
 ---
 
-# Where is the new image kept? 
+# Where is the new image kept?
 
 The image is available on [DockerHub](https://hub.docker.com/r/alandoyle/dokuwiki)
 ```bash
@@ -45,7 +46,7 @@ docker pull alandoyle/dokuwiki:latest
 
 # How to use this new image?
 
-Using the image is really simple. 
+Using the image is really simple.
 
 It can be run via commandline:
 
@@ -95,7 +96,6 @@ The 2 paths needed for persistant data and configuration are displayed in the ta
 | `/var/www/html/conf` | path for Dokuwiki configuration files |
 | `/var/www/html/data` | path for Dokuwiki data files          |
 
- 
 These Volumes are required so all wiki settings and pages are kept whenever the Docker container is restarted.
 
 NOTE: On first run these Volumes are populated with the default files required to get Dokuwiki up and running and ready to begin configuring.

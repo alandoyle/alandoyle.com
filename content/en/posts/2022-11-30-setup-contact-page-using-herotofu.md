@@ -6,6 +6,7 @@ publishDate: 2022-11-30T15:19:07Z
 images: []
 draft: false
 tags: [updates,hugo]
+summary: Setting up [HeroTofu](https://herotofu.com) as a simple Contact Form is child's play.
 cover:
     image: "/images/blog/markus-winkler-GTJNxRG4QJw-unsplash_cropped.jpg"
     alt: "a close up of an old fashioned typewriter - Markus Winkler (https://unsplash.com/photos/GTJNxRG4QJw)"

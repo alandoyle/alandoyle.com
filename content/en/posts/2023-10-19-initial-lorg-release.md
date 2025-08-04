@@ -6,6 +6,7 @@ publishDate: 2023-10-19T23:11:48Z
 images: []
 draft: false
 tags: [google,php,search]
+summary: Finally after months of development I've completed the initial version of the 'lorg' meta-search engine.
 cover:
     image: "/images/covers/agence-olloweb-d9ILr-dbEdg-unsplash_cropped.jpg"
     alt: "featured image"

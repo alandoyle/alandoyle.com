@@ -5,7 +5,8 @@ date: 2022-10-16T08:53:22Z
 publishDate: 2022-10-16T08:53:22Z
 images: []
 draft: false
-tags: ["ubuntu","tips","email"]
+tags: ["ubuntu","debian","tips","email"]
+summary: Simplify sending email from your Debian servers without setting up an SMTP server.
 ShowToc: true
 cover:
     image: "/images/blog/justin-morgan-D2TZ-ashGzc-unsplash_cropped.jpg"
@@ -15,18 +16,18 @@ cover:
 
 # Introduction
 
-My personal/home network is probably more complicated than most (I'll document it soon), but basically I have 3 local servers and 2 VPS running multiple VM's, Docker and LXD containers (all are backed up).
+My personal/home network is probably more complicated than most (I'll document it soon), but basically I have 3 local Proxmox servers and 2 VPS running multiple VM's, Docker and INCUS containers (all are backed up).
 One thing I find very useful is email reports from each of those servers and sometimes from within the containers themselves.
 Rather than setting up, and maintaining, my own email server which is no easy task, I use [MSMTP](https://marlam.de/msmtp/) for sending emails from the terminal or scripts via a dedicated Gmail account.
 
 # Prerequisites
 
-  * Ubuntu server (should also work on Debian too)
+  * Debian server (should also work on Ubuntu too)
   * Gmail account
 
 # Installation
 
-Installation on Ubuntu is incredibly simple. Run the following command...
+Installation on Debian is incredibly simple. Run the following command...
 
 > sudo apt install msmtp msmtp-mta mailutils bsd-mailx -y
 
@@ -49,7 +50,7 @@ As you can see app passwords are a really good idea, it just requires a bit of w
 
 ## Enable 2-Step Verification
 
-*2-Step Verification* **MUST** be enabled on your Gmail account. 
+*2-Step Verification* **MUST** be enabled on your Gmail account.
 
 Simply visit https://myaccount.google.com/security.
 
@@ -133,7 +134,7 @@ sudo nano /etc/aliases
 
 ```bash
 # Example aliases file
-     
+
 # Send root to Joe and Jane
 root: joe_smith@example.com, jane_chang@example.com
 
@@ -193,4 +194,8 @@ Many thanks to [Arch Wiki](https://wiki.archlinux.org) which helped me stitch to
 
   * https://wiki.archlinux.org/title/msmtp
 
-Although not Ubuntu related the Arch Wiki is an *invaluable* resource for anyone running Linux of any kind.
+Although not Debian related the Arch Wiki is an *invaluable* resource for anyone running Linux of any kind.
+
+{{< notification title="Updates" >}}
+  * 2025-08-04 - Updated network details.
+{{< /notification >}}

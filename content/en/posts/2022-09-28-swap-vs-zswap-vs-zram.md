@@ -7,6 +7,7 @@ publishDate: 2022-09-28T11:38:55+01:00
 images: []
 draft: false
 tags: ["ubuntu","swap","tips","performance"]
+summary: So many types of swap and so little time, so here's a rundown on the types available and when they make the most sense.
 showToc: true
 cover:
     image: "/images/covers/possessed-photography-nuc3NFB_6po-unsplash_cropped.jpg"

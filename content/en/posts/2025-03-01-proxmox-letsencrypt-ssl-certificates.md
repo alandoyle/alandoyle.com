@@ -10,6 +10,7 @@ images: []
 draft: false
 showToc: true
 tags: [proxmox,cloudflare,letsencrypt,acme]
+summary: Replacing the default self-signed SSL certifiacte with a legit Lets-Encrypt certificate is really simple in Proxmox. It's also kept up-to-date automatically once set up.
 cover:
     image: "/images/logo/proxmox-full-lockup-color.png"
     alt: "Proxmox"
@@ -23,7 +24,7 @@ cover:
 
 The "why" is simple; I prefer valid HTTPS certificates on all my HTTPS interfaces.
 
-## Is it necessary? 
+## Is it necessary?
 
 No, from a security perspective. A self-signed certifcate will give youi a secure, encrypted connection and so no data is transmitted in plain text over the network. However, a valid SSL certificate adds an layer of trust and gets rid of the annoying browser security warning associated with self-signed certificates.
 
@@ -54,7 +55,7 @@ To do this, login to your Cloudflare dashboard and under **DNS** tab, create a n
 
 ![Cloudflare DNS: Add Record](/images/blog/cloudflare-dns-add-record.jpg)
 
-Then fill out the required details and click **Save** 
+Then fill out the required details and click **Save**
 
 ![Cloudflare DNS: Save Record](/images/blog/cloudflare-dns-save-record.jpg)
 
@@ -63,7 +64,7 @@ Then fill out the required details and click **Save**
   - IPv4 address (e.g 192.168.1.9 for domain to only work on the local network and fail outside your home/lab)
   - Proxy Status (e.g MUST be DISABLED for internal IP address)
 
-In the above example, my Proxmox server will be available at **proxmox.alandoyle.com**, which points to the internal IP address **192.168.1.9** and will only be available on my home network. 
+In the above example, my Proxmox server will be available at **proxmox.alandoyle.com**, which points to the internal IP address **192.168.1.9** and will only be available on my home network.
 
 Usually, Cloudflare DNS records usually propagate very quickly (<5 min). But sometimes it can be longer (up to 24 hours) for DNS servers around the world to cache the information. This is why we are start with this the DNS record first.
 

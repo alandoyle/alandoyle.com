@@ -6,6 +6,7 @@ images: []
 faicon: "fa-brands fa-windows"
 draft: false
 tags: [powertray,.Net,Windows]
+summary: A simple systemtray application for WIndows 10/11 to enhance Power profile usage.
 cover:
     image: "/images/covers/panos-sakalakis-35NiG1dYjtM-unsplash_cropped.jpg"
     alt: "featured image"

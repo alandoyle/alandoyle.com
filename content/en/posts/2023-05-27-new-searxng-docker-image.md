@@ -6,6 +6,7 @@ publishDate: 2023-05-27T22:18:55+01:00
 images: []
 draft: false
 tags: [docker,searxng]
+summary: A simple, easy to configure SearXNG Docker image.
 cover:
     image: "/images/logo/searxng-logo.png"
     alt: "SearXNG Logo"

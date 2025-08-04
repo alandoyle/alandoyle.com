@@ -6,6 +6,7 @@ publishDate: 2023-10-12T14:40:50+01:00
 images: []
 draft: false
 tags: [grapheneos,android,nokia x20,pixel 6a]
+summary: In a world where Privacy is slowly being eroded GrapheneOS allows you to regain some of that Privacy back.
 cover:
     image: "/images/logo/grapheneos-logo.png"
     alt: "GrapheneOS Logo"

@@ -6,6 +6,7 @@ publishDate: 2023-08-09T14:36:31+01:00
 images: []
 draft: false
 tags: [gogs,git,docker]
+summary: How to setup [GOGS](https://gogs.io), a lightweight, Github-like experience for privately hosted (on-premise) Git servers.
 showToc: true
 cover:
     image: "/images/logo/gogs-logo.png"

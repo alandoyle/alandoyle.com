@@ -10,6 +10,7 @@ images: []
 draft: false
 showToc: true
 tags: [proxmox]
+summary: Why I switched from ESXi to Proxmox after the whole Broadcom takeover debacle.
 cover:
     image: "/images/logo/proxmox-full-lockup-color.png"
     alt: "Proxmox"

@@ -5,7 +5,8 @@ publishDate: 2022-09-29T00:57:34+01:00
 faicon: "fa-brands fa-ubuntu"
 images: []
 draft: false
-tags: ["ubuntu","tips","powersaving"]
+tags: ["ubuntu","debian","tips","powersaving"]
+summary: Simple automated Powersaving for Ubuntu systems. Useful for desktops and servers.
 cover:
     image: "/images/blog/roberto-sorin-ZZ3qxWFZNRg-unsplash_cropped.jpg"
     alt: "brown green and blue round buttons - Roberto Sorin (https://unsplash.com/photos/ZZ3qxWFZNRg)"
