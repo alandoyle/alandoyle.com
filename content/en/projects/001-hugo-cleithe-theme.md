@@ -228,7 +228,7 @@ This will output `© 2008-2023 - Site Title`
     [privacy.instagram]
         disable = false
         simple = false
-    [privacy.twitter]
+    [privacy.x]
         disable = false
         enableDNT = true
         simple = false
@@ -354,16 +354,21 @@ Inside this file you'll find something like this:
 ---
 title: "Bad example"
 description: ""
-author: ""
+author:
+email:
+faicon:
 date: 2018-12-27T21:09:45+01:00
 publishDate: 2018-12-27T21:09:45+01:00
 images: []
 draft: true
 tags: []
+summary: Summary goes here.
 showToc: true
 cover:
     image: "/images/cover_image.jpg"
     alt: "Image Description"
+    imageurl: "https://link.to/original-photo"
+    showcredits: false
     relative: false
     hidden: true
 ---
@@ -373,7 +378,11 @@ The _title_ and _description_ are used as the main title and subtitle respective
 
 > You can find more information about the basic parameters in the [official documentation](https://gohugo.io/content-management/front-matter/).
 
-The _showToc_ is used to generate a Table of Contents from all h1 and h2 tags
+The _faicon_ is used to specify a [Font Awesome](https://fontawesome.com) icon to use.
+
+The _summary_ is used to generate a summary for the card list.
+
+The _showToc_ is used to generate a Table of Contents from all h1 and h2 tags.
 
 The _cover_ section defines a Cover Image for the post.
 

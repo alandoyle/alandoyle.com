@@ -226,7 +226,7 @@ print s
 ```
 
 ```
-No language indicated, so no syntax highlighting.
+No language indicated, so no syntax highlighting in Markdown Here (varies on Github).
 ```
 
 ## Tables
