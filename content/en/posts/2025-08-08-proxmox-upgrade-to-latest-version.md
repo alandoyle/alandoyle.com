@@ -7,7 +7,7 @@ faicon: fa-solid fa-server
 date: 2025-08-08T23:21:24+01:00
 publishDate: 2025-08-08T23:21:24+01:00
 images: []
-draft: true
+draft: false
 ShowToc: true
 tags: [proxmox]
 summary: Proxmovx Virtual Environment 9 and Proxmox Backup Server 4 have just arrivced. Let's upgrade our PVE 8 and PBS 3 servers to the latest version.
