@@ -10,7 +10,7 @@ images: []
 draft: false
 ShowToc: true
 tags: [proxmox]
-summary: Proxmovx Virtual Environment 9 and Proxmox Backup Server 4 have just arrivced. Let's upgrade our PVE 8 and PBS 3 servers to the latest version.
+summary: Proxmox Virtual Environment 9 and Proxmox Backup Server 4 have just arrived. Let's upgrade our PVE 8 and PBS 3 servers to the latest version.
 cover:
     image: "/images/logo/proxmox-full-lockup-color.png"
     alt: "Proxmox"
