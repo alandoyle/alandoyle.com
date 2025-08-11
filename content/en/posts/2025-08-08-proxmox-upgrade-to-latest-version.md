@@ -36,17 +36,33 @@ The release post for Proxmox Virtual Environment (VE) 9.0 can be found [here](ht
 
 It goes without saying but before embarking on the upgrade you should read the section on ["Known issues"](https://pve.proxmox.com/wiki/Upgrade_from_8_to_9#Known_Upgrade_Issues) on the Proxmox Wiki page for upgrading Proxmox 8 to 9.
 
-Once you are satisified that you can safely proceed with the upgrade you _MUST_ **BACKUP** all LXC containers and KVM Virtual Machines on the Proxmox node being upgraded.
+I also recommend running the following command to run through some pre-upgrade checks recommended by Proxmox...
+
+```bash
+pve8to9 --full
+```
+
+Once you are satisified that you can safely proceed with the upgrade you _MUST_ **BACKUP** all LXC containers and KVM Virtual Machines (VM's) on the Proxmox node being upgraded.
 
 {{< error title="BACKUP! BACKUP! BACKUP!" >}}
-YOU HAVE BEEN WARNED!
+AND TEST YOUR BACKUPS. YOU HAVE BEEN WARNED!
 {{< /error >}}
 
-If you don't **BACKUP** and the upgrade fails then you're in for a _very_ bad time.
+If you haven't run a full **BACKUP** on all your containers and VM's _AND_ you haven't **TESTED** your backups you're in for a _VERY_ bad time if the upgrade fails.
+
+{{< notification title="REMEMBER" >}}
+An untested backup isn't a backup, it's a wish.
+{{< /notification >}}
+
+---
+
+I've simplified the process down to 3 main steps described below but again I recommend reading the [official upgrade wiki page](https://pve.proxmox.com/wiki/Upgrade_from_8_to_9) before beginning.
 
 ---
 
 # Step 1: Update the current Node
+
+NOTE: All these instructions are based on _my_ experience following the instructions on the [official upgrade wiki page](https://pve.proxmox.com/wiki/Upgrade_from_8_to_9).
 
 To upgrade to the latest "Trixie" based versions of Proxmox you _MUST_ update your Node to the current latest version. This is very simple and can be achieved by running the following commands from a Shell as **root**
 
@@ -56,7 +72,7 @@ To upgrade to the latest "Trixie" based versions of Proxmox you _MUST_ update yo
 /usr/bin/apt autoremove -y
 ```
 
-This may take a while depending on how often you update your Proxmox Nodes.
+This may take a while depending on how often you update your Proxmox Nodes. At the time of writing this should upgrade the node to 8.4.9.
 
 ---
 
@@ -66,7 +82,7 @@ Proxmox Virtual Environment (VE) 9 and Proxmox Backup Server (PBS) 4 both move t
 
 ## Common Debian Repository
 
-To create the new Debian repository _source_ file simply run the following command as root...
+To create the new Debian repository _sources_ file simply run the following command as root...
 
 ```bash
 cat > /etc/apt/sources.list.d/debian.sources << EOF
@@ -110,7 +126,7 @@ Signed-By: /usr/share/keyrings/proxmox-archive-keyring.gpg
 EOF
 ```
 
-## "No subscription"" Users AKA Homelabbers
+## "No subscription" Users Only AKA Homelabbers
 
 There are a few extra steps required in order to enable the "No Subscription" repositories and disable the Enterprise repositories.
 
@@ -144,6 +160,7 @@ EOF
 ## Remove old repositories.
 
 We now need to remove the old "Bookworm" repositores in order to upgrade safely.
+Failure to do so will corrupt the apt cahce resulting in a broken and possibly unbootable system.
 
 This can be done simply by running the following commands as root...
 
@@ -157,7 +174,7 @@ rm /etc/apt/sources.list.d/*.list
 
 # Step 3: Update the current Node
 
-With all that preperation complete we can noww upgrade to the latest "Trixie" based versions of Proxmox. To do this simply run the following commands from a Shell as **root**
+With all that preparation complete we can now upgrade to the latest "Trixie" based versions of Proxmox. To do this simply run the following commands from a Shell as **root**
 
 ```bash
 /usr/bin/apt update
@@ -165,16 +182,32 @@ With all that preperation complete we can noww upgrade to the latest "Trixie" ba
 /usr/bin/apt autoremove -y
 ```
 
-This _WILL__ take a long timne to run. Several questions will be asked along the way. I'll leave it to your own judgement as to how to answer thjose questions, personally for any _configuration_ file requests I leave the current configuration file intactas this tends to prevent breakages.
+This _WILL_ take a long time to run. Several questions will be asked along the way.
+
+In my experience upgrading my 3 Proxmox servers I chose the following.
+
+  - I chose NOT to restart services
+  - I chose NOT to overwrite /etc/issue
+  - I chose NOT to overwrite /etc/lvm/lvm.conf as it is based on how your node is installed.
+  - I chose not to overwrite /etc/apt/sources.list.d/pve-enterprise.sources as I'm using the "No-Subscription" repositories.
+  - Once the upgrade was complet I rebooted the Node to ensure all services were running the new versions.
+
+That being said I'll leave it to your own judgement as to how to answer those questions based on your particular setup.
 
 ---
 
 # Conclusion
 
-Overall the process is really simple. I've updated all 3 of my Proxmox Virtual Environment Nodes from 8.4 to 9.0 without issue. I also created a simple script to automate the process as much as possible.
+Overall the process is really simple. I've updated all 3 of my Proxmox Virtual Environment Nodes from 8.4 to 9.0 without issue. I also created a simple script, which encapsulates the 3 steps outlined above, to automate the process as much as possible.
 
 To run this script simply run the following command as root...
 
 ```bash
 bash -c "$(wget -qLO - https://github.com/alandoyle/proxmox-setup/raw/main/upgrade-proxmox)"
 ```
+
+---
+
+{{< notification title="Updates" >}}
+  * 2025-08-11 - Clarified some of the information provided.
+{{< /notification >}}
