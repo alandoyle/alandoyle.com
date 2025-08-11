@@ -9,7 +9,7 @@ publishDate: 2025-08-08T23:21:24+01:00
 images: []
 draft: false
 ShowToc: true
-tags: [proxmox]
+tags: [proxmox,upgrade,debian]
 summary: Proxmox Virtual Environment 9 and Proxmox Backup Server 4 have just arrived. Let's upgrade our PVE 8 and PBS 3 servers to the latest version.
 cover:
     image: "/images/logo/proxmox-full-lockup-color.png"
@@ -196,15 +196,29 @@ That being said I'll leave it to your own judgement as to how to answer those qu
 
 ---
 
-# Conclusion
+# Semi-automated Script
 
-Overall the process is really simple. I've updated all 3 of my Proxmox Virtual Environment Nodes from 8.4 to 9.0 without issue. I also created a simple script, which encapsulates the 3 steps outlined above, to automate the process as much as possible.
+I also created a simple script, which encapsulates the 3 steps outlined above, to automate the process as much as possible.
 
-To run this script simply run the following command as root...
+The script will set the system for the "No-Subscription" repositories by default.
+
+If the script is to be run on a Proxmox node with a licence then create a file called **/etc/default/proxmox-setup** with the following contents...
+
+```
+PROXMOX_ENV=LIVE
+```
+
+This file _MUST_ be created _BEFORE_ running the upgrade script.
+
+Then, to run this script simply run the following command as root...
 
 ```bash
 bash -c "$(wget -qLO - https://github.com/alandoyle/proxmox-setup/raw/main/upgrade-proxmox)"
 ```
+
+# Conclusion
+
+Overall the process is really simple. Although, my setup is very simple so thnakfully I've managed to update all 3 of my Proxmox Virtual Environment Nodes from 8.4 to 9.0 without issue.
 
 ---
 
