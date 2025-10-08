@@ -116,6 +116,7 @@ Initially, I was using the latest PHP 8.2 image as a base but Dokuwiki doesn't s
 ```
 
 {{< notification title="Updates" >}}
+  * 2025-10-08 - Updated to 2025-05-14b version of Dokuwiki.
   * 2025-06-17 - Updated to 2025-05-14a version of Dokuwiki.
   * 2025-05-23 - Updated to 2025-05-14 version of Dokuwiki.
 {{< /notification >}}

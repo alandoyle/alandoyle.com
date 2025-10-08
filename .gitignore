@@ -21,6 +21,8 @@
 ### Hugo ###
 # Hugo binary
 hugo*
+# Lock files
+.hugo_build.lock
 
 # Generated files at default location
 */public/

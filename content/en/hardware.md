@@ -68,27 +68,6 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 
 ---
 
-## Teclast F5
-**Ares** – Portable Linux Laptop ([FydeOS](https://fydeos.io/))
-
-{{< figure src="/images/hardware/Teclast-F5.jpg" alt="Teclast F5" class="hardware-image" >}}
-
-- Intel Celeron N4100 1.1GHz (up to 2.4 GHz) Quad Core
-- 8Gb DDR4 2400 SDRAM
-- Intel UHD Graphics 600 GPU
-- 256Gb 2242 SSD SATA-III
-- Intel AVStream Camera 2MP
-- 11.6” FHD screen (1920×1080), 16:9 widescreen touchscreen
-- Intel SST Audio
-- Intel Dual Band Wireless AC 3165 & Bluetooth 4.2
-- USB C port (1)
-- Micro USB port (1)
-- Mini-HDMI port
-- Alogic USB-C Travel Dock
-- Rechargeable Bluetooth Mouse
-
----
-
 ## Antec Fusion
 **Elysium** – emuShell Gaming PC ([Windows 11 Pro](https://www.microsoft.com/windows))
 
