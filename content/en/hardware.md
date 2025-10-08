@@ -77,19 +77,20 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 - Noctua NH-C14S Top-Flow Cooler
 - ASRock AMD Ryzen B550M Phantom Gaming 4 AM4 PCIe 4.0 mATX Motherboard
 - 64GB Corsair Vengeance LPX Black (2x32GB) 3600MHz DDR4 RAM
-- 512GB Toshiba KXG5AZNV512G M.2 NVMe SSD
+- Crucial P310 1TB M.2 Gen. 4 NVMe SSD
 - 8Tb Samsung 870 QVO SATA-III SSD
 - 4Tb Seagate Barracuda ST4000DM000 SATA-III (2)
-- GIGABYTE GeForce RTX 4060 OC Low Profile 8GB PCIexpress 4.0 x16
+- GIGABYTE GeForce RTX 5060 OC Low Profile 8GB PCIexpress 4.0 x16
 - Realtek 7.1 CH (Realtek ALC887/897 Audio Codec) HD Audio
 - Realtek RTL8168 Gigabit Ethernet PCIe
 - USB 3.0 ports (4)
 - USB 2.0 ports (4)
 - Google Stadia Bluetooth Controller (2)
 - Sony DualSense PS5 Wireless Controller - White
-- USB Bluetooth 5.0 dongle
+- KEEKU AC600 Mbps WiFi/Bluetooth 4.2 PCI Express Adapter
 - USB iMon Soundgraph IR Receiver
 - Trust ODY Wireless Keyboard and Mouse
+- TCL C805K 65 inch QLED Mini LED 144Hz 4K HDR Smart Google TV
 
 ---
 
@@ -206,13 +207,34 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 - Intel® Core™ i5-8400T (6C/6T, 9M Cache, up to 3.3 GHz)
 - Intel H370 Chipset
 - 16Gb DDR4 2666 RAM
-- 256GB M.2 SSD nVME
+- 256GB Sandisk Corp IX SN530 M.2 SSD nVME
 - 1TB Silicon Power SSD SATA-III
 - Intel HD Graphics 630 Graphics
 - Realtek ALC3234 HD Audio
 - Realtek RTL8111HSD-CG PCIe Gigabit LAN
 - USB 3.1 Gen 1 ports (4)
 - USB 2.0 ports (2)
+
+---
+
+# Proxmox Backup Servers
+
+## VOR
+**Beelink U59 Pro** – Backup Server ([Proxmox Backup Server](https://www.proxmox.com/en/products/proxmox-backup-server/overview))
+
+{{< figure src="/images/hardware/Beelink-U59-Pro.jpg" alt="Beelink U59 Pro" class="hardware-image" >}}
+
+- Intel Celeron N5105 (4C/4T, 4M Cache, 2.0GHz up to 2.9GHz)
+- 16Gb DDR4 2666 RAM
+- 512GB M.2 SSD SATA-III
+- 4Tb Samsung 870 QVO SATA-III SSD
+- Intel JasperLake [UHD Graphics] GPU
+- Intel Corporation Jasper Lake HD Audio
+- Intel Bluetooth 4.0
+- Intel(R) Dual Band Wireless AC 3165
+- Realtek RTL8111 PCIe Gigabit LAN (2)
+- USB 3.0 port (4)
+- USB C port (1)
 
 ---
 
@@ -353,6 +375,30 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 - 32 GB SD IDE on SD2IDE adapter
 - TruMouse Amiga 600 Keyboard Pin Connector Adapter Board - Pins for A500 and Ext keyboard
 - Commodore CDTV Keyboard CD-1221 (Black keycaps)
+
+---
+
+# ARM Devices
+
+## Goodisory A01 (Raspberry Pi 5B)
+**Njord** – Main ARM Development Machine ([Raspberry Pi OS](https://www.raspberrypi.com/software/))
+
+{{< figure src="/images/hardware/Goodisory-A01.jpg" alt="Goodisory A01" class="hardware-image" >}}
+
+- Broadcom BCM2712 2.4GHz quad-core 64-bit Arm Cortex-A76 CPU, with cryptography extensions, 512KB per-core L2 caches and a 2MB shared L3 cache
+- VideoCore VII GPU, supporting OpenGL ES 3.1, Vulkan 1.2
+- Dual 4Kp60 HDMI® display output with HDR support
+- 8Gb LPDDR4X-4267 SDRAM
+- 256Gb Patriot P300 NVMe SSD
+- Dual-band 802.11ac Wi-Fi®
+- Bluetooth 5.0 / Bluetooth Low Energy (BLE)
+- MicroSD card slot, with support for high-speed SDR104 mode
+- USB 3.0 ports (2)
+- USB 2.0 ports (2)
+- Gigabit Ethernet
+- 2 × 4-lane MIPI camera/display transceivers
+- PCIe 2.0 x1 interface for fast peripherals (requires separate M.2 HAT or other adapter)
+- Pimoroni NVMe Base @PCIe 3.0
 
 ---
 
