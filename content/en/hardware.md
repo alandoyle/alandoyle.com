@@ -79,7 +79,7 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 - 64GB Corsair Vengeance LPX Black (2x32GB) 3600MHz DDR4 RAM
 - Crucial P310 1TB M.2 Gen. 4 NVMe SSD
 - 8Tb Samsung 870 QVO SATA-III SSD
-- 4Tb Seagate Barracuda ST4000DM000 SATA-III (2)
+- ASUS Blu-ray Writer BW-16D1HT SATA
 - GIGABYTE GeForce RTX 5060 OC Low Profile 8GB PCIexpress 4.0 x16
 - Realtek 7.1 CH (Realtek ALC887/897 Audio Codec) HD Audio
 - Realtek RTL8168 Gigabit Ethernet PCIe
