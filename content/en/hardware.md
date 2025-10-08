@@ -241,7 +241,7 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 # Debian Servers
 
 ## VE
-**KASEPE T9PLUS** – Docker Server ([Debian 12 (Bookworm)](https://www.debian.org))
+**KASEPE T9PLUS** – Incus Server ([Debian 13 (Trixie)](https://www.debian.org))
 
 {{< figure src="/images/hardware/T9PLUS.jpg" alt="KASEPE T9PLUS" class="hardware-image" >}}
 
@@ -385,7 +385,7 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 
 {{< figure src="/images/hardware/Goodisory-A01.jpg" alt="Goodisory A01" class="hardware-image" >}}
 
-- Broadcom BCM2712 2.4GHz quad-core 64-bit Arm Cortex-A76 CPU, with cryptography extensions, 512KB per-core L2 caches and a 2MB shared L3 cache
+- Broadcom BCM2712 2.4GHz quad-core 64-bit Arm Cortex-A76 CPU
 - VideoCore VII GPU, supporting OpenGL ES 3.1, Vulkan 1.2
 - Dual 4Kp60 HDMI® display output with HDR support
 - 8Gb LPDDR4X-4267 SDRAM
@@ -398,7 +398,7 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 - Gigabit Ethernet
 - 2 × 4-lane MIPI camera/display transceivers
 - PCIe 2.0 x1 interface for fast peripherals (requires separate M.2 HAT or other adapter)
-- Pimoroni NVMe Base @PCIe 3.0
+- Pimoroni NVMe M.2 HAT @PCIe 3.0
 
 ---
 
