@@ -23,7 +23,7 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 
 {{< figure src="/images/hardware/FX505DT-AL086T.jpg" alt="ASUS TUF FX505DT-AL086T" class="hardware-image" >}}
 
-- AMD Ryzen R5-3550H / 2.1GHz Max Turbo Speed 3.7GHz Quad Core (8 Threads) Processor
+- AMD Ryzen™ 5 3550H (4C/8T, 4M Cache, 2.1 GHz up to 3.7 GHz)
 - 16b DDR4 3200 RAM
 - AMD® Vega 8 2Gb Integrated Graphics
 - NVIDIA GeForce GTX 1650 4GB Dedicated Graphics
@@ -46,7 +46,7 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 
 {{< figure src="/images/hardware/Beelink-SER5-Max.jpg" alt="Beelink SER5 Max" class="hardware-image" >}}
 
-- AMD Ryzen 7 5800H (8C/16T, 4M Cache, 3.2GHz up to 4.4GHz)
+- AMD Ryzen™ 7 5800H (8C/16T, 4M Cache, 3.2 GHz up to 4.4 GHz)
 - Crucial 32Gb DDR4 3200 RAM
 - 4TB Crucial P3 CT4000P3SSD8 M.2 NVMe SSD
 - AMD Radeon RX Vega 8 Graphics 4GB
@@ -73,7 +73,7 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 
 {{< figure src="/images/hardware/Antec-Fusion.jpg" alt="Antec Fusion" class="hardware-image" >}}
 
-- AMD Ryzen™ 7 5700X, AM4, Zen 3, 8 Core, 16 Thread, 3.4GHz, 4.6GHz Turbo, 36MB Cache, PCIe 4.0, 65W, CPU
+- AMD Ryzen™ 7 5700X (8C/16T, 36MB Cache, 3.4 GHz up to 4.6 GHz)
 - Noctua NH-C14S Top-Flow Cooler
 - ASRock AMD Ryzen B550M Phantom Gaming 4 AM4 PCIe 4.0 mATX Motherboard
 - 64GB Corsair Vengeance LPX Black (2x32GB) 3600MHz DDR4 RAM
@@ -95,11 +95,11 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 ---
 
 ## Alienware Alpha R2
-**Tartarus** – emuShell Test Machine ([Windows 11 Pro](https://www.microsoft.com/windows))
+**Tartarus** – emuShell Test Machine ([Windows 10 Pro](https://www.microsoft.com/windows))
 
 {{< figure src="/images/hardware/Alienware-Alpha-R2.jpg" alt="Alienware Alpha R2" class="hardware-image" >}}
 
-- Intel i7-6700T 2.8GHz (up to 3.6 GHz) 4C/8T 35W
+- Intel® Core™ i7-6700T (4C/8T, 8M Cache, 2.8 GHz up to 3.6 GHz)
 - 16Gb DDR4 2133 SDRAM
 - nVidia GTX 960 4GB PCIe 3.0 x16
 - 500GB Crucial P3 Plus PCIe M.2 2280 SSD NVMe
@@ -117,11 +117,11 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 ---
 
 ## Linx 1010B
-**Eris** – Windows 10 Retro Gaming Tablet ([Windows 10 Home](https://www.microsoft.com/en-us/windows/compare-windows-10-home-vs-pro))
+**Eris** – Windows 10 Retro Gaming Tablet ([Windows 10 Pro](https://www.microsoft.com/en-us/windows/compare-windows-10-home-vs-pro))
 
 {{< figure src="/images/hardware/Linx-1010B.jpg" alt="Linx 1010B" class="hardware-image" >}}
 
-- Intel Atom Z3735F Quad Core 1.33GHz
+- Intel® Atom Z3735F (4C/4T, 2M Cache, 1.33 GHz up to 1.83 GHz)
 - 2Gb DDR3 SDRAM
 - 128Mb Intel Iris Pro 5200
 - 32Gb Toshiba 032G72 eMMC
@@ -141,7 +141,7 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 **Hel** – Router ([OPNSense](https://www.opnsense.org))
 
 {{< figure src="/images/hardware/AIOPCWA-X86-P5.jpg" alt="AIOPCWA X86-P5" class="hardware-image" >}}
-- Intel® Processor N100 (4C/4T, 6M Cache, up to 3.40 GHz)
+- Intel® Processor N100 (4C/4T, 6M Cache, 800 MHz up to 3.4 GHz)
 - 8GB LPDDR5 4800 RAM
 - 128GB M.2 SSD nVME
 - Intel Alder Lake-N [UHD Graphics]
@@ -160,7 +160,7 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 
 {{< figure src="/images/hardware/CiT-S015B.jpg" alt="CiT S015B" class="hardware-image" >}}
 
-- Intel® Core™ i5-8500T (6C/6T, 9M Cache, up to 3.5 GHz)
+- Intel® Core™ i5-8500T (6C/6T, 9M Cache, 2.1 GHz up to 3.5 GHz)
 - GIGABYTE Z370M-DS3H LGA1151 Motherboard
 - Intel H370 Chipset
 - 64Gb DDR4 2400 RAM
@@ -183,19 +183,22 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 
 {{< figure src="/images/hardware/NODE-804.jpg" alt="NODE-804" class="hardware-image" >}}
 
-- Intel i7-6700T 3.2GHz (up to 3.6 GHz) 4C/8T
-- ASUS Q170M-C LGA1151 Motherboard
-- 32Gb DDR4 2133 RAM
-- Intel HD Graphics 530 Graphics
-- 512GB Patriot P220 SATA-III (2)
+- Intel® Xeon® CPU E3-1241 v3 (4C/8T, 8M Cache, 3.5 GHz up to 3.9 GHz)
+- Noctua NH-L12S Top-Flow Cooler
+- Supermicro X10SLM+-LN4F Motherboard
+- 32GB DDR3 ECC 1600MHz UDIMM RAM
+- ASPEED AST2400 BMC
+- 512GB Patriot P220 SSD SATA-III
+- 512GB Silicon Power A55 SSD SATA-III
 - 12Tb Seagate Ironwolf Pro ST12000NE0008 SATA-III (4)
 - 12Tb Seagate Exos x18 ST12000NM000J-2T SATA-III
 - 12Tb Seagate Enterprise ST12000NM0127 SATA-III
 - LSI SAS 2308 6G PCI E X8 Array Card (IT Mode)
-- Intel I210 Gigabit Ethernet PCIe
-- Noctua NF-P12 redux-900, Ultra Quiet Silent Fans (4)
+- Intel I210 Gigabit Ethernet PCIe (4)
+- Akasa PCI Slot Bracket for Mounting 120mm Fan
+- Noctua NF-P12 redux-900, Ultra Quiet Silent Fans (5)
 - USB 3.0 ports (4)
-- USB 2.0 ports (2)
+- USB 2.0 ports (6)
 
 ---
 
@@ -204,7 +207,7 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 
 {{< figure src="/images/hardware/Dell-Optiplex-3060-Micro.jpg" alt="Dell Optiplex 3060 Micro" class="hardware-image" >}}
 
-- Intel® Core™ i5-8400T (6C/6T, 9M Cache, up to 3.3 GHz)
+- Intel® Core™ i5-8400T (6C/6T, 9M Cache, 1.7 GHz up to 3.3 GHz)
 - Intel H370 Chipset
 - 16Gb DDR4 2666 RAM
 - 256GB Sandisk Corp IX SN530 M.2 SSD nVME
@@ -224,7 +227,7 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 
 {{< figure src="/images/hardware/Beelink-U59-Pro.jpg" alt="Beelink U59 Pro" class="hardware-image" >}}
 
-- Intel Celeron N5105 (4C/4T, 4M Cache, 2.0GHz up to 2.9GHz)
+- Intel Celeron N5105 (4C/4T, 4M Cache, 2.0 GHz up to 2.9 GHz)
 - 16Gb DDR4 2666 RAM
 - 512GB M.2 SSD SATA-III
 - 4Tb Samsung 870 QVO SATA-III SSD
@@ -245,7 +248,7 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 
 {{< figure src="/images/hardware/T9PLUS.jpg" alt="KASEPE T9PLUS" class="hardware-image" >}}
 
-- Intel N95 (4C/4T, 6M Cache, 2.0GHz up to 3.4GHz)
+- Intel N95 (4C/4T, 6M Cache, 1.7 GHz up to 3.4 GHz)
 - 8GB LPDDR5 4800 RAM
 - 256GB M.2 SSD SATA-III
 - Intel Alder Lake-N [UHD Graphics]
