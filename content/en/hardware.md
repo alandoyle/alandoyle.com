@@ -19,7 +19,7 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 # PCs
 
 ## ASUS FX505DT-AL086T
-**Nyx** – Windows Gaming Laptop ([Windows 11 Pro](https://www.microsoft.com/windows))
+**Nyx** – Windows Gaming Laptop ([Windows 10 LTSC](https://www.microsoft.com/windows))
 
 {{< figure src="/images/hardware/FX505DT-AL086T.jpg" alt="ASUS TUF FX505DT-AL086T" class="hardware-image" >}}
 
@@ -69,7 +69,7 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 ---
 
 ## Antec Fusion
-**Elysium** – emuShell Gaming PC ([Windows 11 Pro](https://www.microsoft.com/windows))
+**Elysium** – emuShell Gaming PC ([Windows 11 LTSC](https://www.microsoft.com/windows))
 
 {{< figure src="/images/hardware/Antec-Fusion.jpg" alt="Antec Fusion" class="hardware-image" >}}
 
@@ -95,7 +95,7 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 ---
 
 ## Alienware Alpha R2
-**Tartarus** – emuShell Test Machine ([Windows 10 Pro](https://www.microsoft.com/windows))
+**Tartarus** – emuShell Test Machine ([Windows 10 LTSC](https://www.microsoft.com/windows))
 
 {{< figure src="/images/hardware/Alienware-Alpha-R2.jpg" alt="Alienware Alpha R2" class="hardware-image" >}}
 
@@ -117,7 +117,7 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 ---
 
 ## Linx 1010B
-**Eris** – Windows 10 Retro Gaming Tablet ([Windows 10 Pro](https://www.microsoft.com/en-us/windows/compare-windows-10-home-vs-pro))
+**Eris** – Windows 10 Retro Gaming Tablet ([Windows 10 LTSC](https://www.microsoft.com/en-us/windows/compare-windows-10-home-vs-pro))
 
 {{< figure src="/images/hardware/Linx-1010B.jpg" alt="Linx 1010B" class="hardware-image" >}}
 
@@ -434,7 +434,7 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 - PowerPC 7447a (G4) 1.42GHz
 - ATI Radeon 9200 with 32 MB of DDR SDRAM (AGP 4X Support)
 - 1GB PC2700 DDR SDRAM
-- 80GB HDD IDE (4200  RPM)
+- 80GB HDD IDE (4200 RPM)
 - 8X "Combo Drive"
 - Internal AirPort Extreme (802.11b/802.11g) and Bluetooth support.
 - 10/100Base-T Ethernet
@@ -442,6 +442,7 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 - USB 2.0 (2)
 - Firewire 400 (1)
 - MorphOS 3.19
+- BenQ M2200HD 22" LCD (1920×1080)
 - Apple A1243 Wired USB Aluminium Keyboard
 - Apple A1152 Mighty Mouse
 

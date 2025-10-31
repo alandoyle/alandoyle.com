@@ -37,6 +37,7 @@ It can be run via commandline:
 docker run --name=searxng \
   -d --init \
   -v <MY_CONFIG_PATH>:/etc/searxng \
+  -v <MY_DATA_PATH>:/var/cache/searxng \
   -v <MY_TEMPLATE_PATH>:/usr/local/searxng/searx/templates/simple \
   -v <MY_THEME_PATH>:/usr/local/searxng/searx/static/themes/simple \
   -p 8000:8080/tcp \
@@ -46,8 +47,7 @@ docker run --name=searxng \
 Or via Docker compose:
 
 ```yaml
-version: "3"
-
+---
 services:
   searxng:
    image: alandoyle/searxng:latest
@@ -58,6 +58,7 @@ services:
      - "8000:8080/tcp"
    volumes:
      - ./searxng/config:/etc/searxng
+     - ./searxng/data/:/var/cache/searxng
      - ./searxng/template:/usr/local/searxng/searx/templates/simple
      - ./searxng/theme:/usr/local/searxng/searx/static/themes/simple
 ```
@@ -76,14 +77,14 @@ The SearXNG image only needs one port. Port 8080, the alternative HTTP port.
 
 # What Volumes are required?
 
-The 3 paths needed for persistant data and configuration are displayed in the table below.
+The 4 paths needed for persistant data and configuration are displayed in the table below.
 
-| Path                                               | Description                           |
-|-------------------------------------------------|---------------------------------------|
-| `/etc/searxng`                                  | path for SearXNG configuration files |
-| `/usr/local/searxng/searx/templates/simple`     | path for SearXNG temolate files          |
-| `/usr/local/searxng/searx/static/themes/simple` | path for SearXNG theme files          |
-
+| Path                                            | Description                            |
+|-------------------------------------------------|----------------------------------------|
+| `/etc/searxng`                                  | path for SearXNG configuration files   |
+| `/var/cache/searxng`                            | path for SearXNG data/cache files      |
+| `/usr/local/searxng/searx/templates/simple`     | path for SearXNG template files        |
+| `/usr/local/searxng/searx/static/themes/simple` | path for SearXNG template static files |
 
 These Volumes are required so all SearXNG settings and themes are kept whenever the Docker container is restarted.
 
@@ -98,5 +99,6 @@ Does this Docker image meet my needs? Well, yes it does, obviously!
 Hopefully, somemone else will find this image useful too.
 
 {{< notification title="Updates" >}}
+  * 2025-10-31 - Updated to latest SearXNG code (2025.10.27-ea4a55fa5).
   * 2025-05-11 - Updated to latest SearXNG code which fixes Google searches.
 {{< /notification >}}
