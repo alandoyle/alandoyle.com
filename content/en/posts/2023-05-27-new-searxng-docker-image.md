@@ -90,6 +90,8 @@ These Volumes are required so all SearXNG settings and themes are kept whenever 
 
 NOTE: On first run these Volumes are populated with the default files required to get SearXNG up and running and ready to begin configuring.
 
+To customize the 'Simple' template used by SearXNG by default edit the files within the 'template' and 'theme' folders populated by SearXNG on first run. Here is wher you can change the log, etc. of the SearXNG site so it is a more personalised search engine.
+
 ---
 
 # Conclusion
