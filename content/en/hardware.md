@@ -18,6 +18,34 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 
 # PCs
 
+## Lian Li A3-mATX
+**Elysium** – emuShell Gaming PC ([Windows 11 IoT LTSC](https://www.microsoft.com/windows))
+
+{{< figure src="/images/hardware/Lian-Li-A3-mATX.jpg" alt="Lian Li A3-mATX" class="hardware-image" >}}
+
+- AMD Ryzen™ 7 5700X (8C/16T, 36MB Cache, 3.4 GHz up to 4.6 GHz)
+- Noctua NH-C14S Top-Flow Cooler
+- ASRock AMD Ryzen B550M Phantom Gaming 4 AM4 PCIe 4.0 mATX Motherboard
+- 64GB Corsair Vengeance LPX Black (2x32GB) 3600MHz DDR4 RAM
+- 1TB Crucial P310 M.2 Gen. 4 NVMe SSD
+- 4TB Crucial P3 CT4000P3SSD8 M.2 NVMe SSD
+- 8Tb Samsung 870 QVO SATA-III SSD
+- GIGABYTE GeForce RTX 5060 OC Low Profile 8GB PCIexpress 4.0 x16
+- Realtek 7.1 CH (Realtek ALC887/897 Audio Codec) HD Audio
+- Realtek RTL8168 Gigabit Ethernet PCIe
+- USB 3.2 Gen1 ports (4)
+- USB 3.0 ports (2)
+- USB 2.0 ports (2)
+- USB Type-C 3.1
+- Xbox Wireless Controller – Carbon Black
+- AXFEE Xbox Wireless Adapter for PC
+- Sony DualSense PS5 Wireless Controller - White
+- KEEKU AC600 Mbps WiFi/Bluetooth 4.2 PCI Express Adapter
+- Trust ODY Wireless Keyboard and Mouse
+- TCL C805K 65 inch QLED Mini LED 144Hz 4K HDR Smart Google TV
+
+---
+
 ## ASUS FX505DT-AL086T
 **Nyx** – Windows Gaming Laptop ([Windows 10 LTSC](https://www.microsoft.com/windows))
 
@@ -28,6 +56,7 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 - AMD® Vega 8 2Gb Integrated Graphics
 - NVIDIA GeForce GTX 1650 4GB Dedicated Graphics
 - 512GB Patriot P300 M.2 NVMe SSD
+- 1TB Silicon Power A55 SSD SATA-III
 - USB 2.0 ports (1)
 - USB 3.1 ports (2)
 - 15.6” HD screen (1920×1080), 120Hz 16:9 widescreen
@@ -41,14 +70,42 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 
 ---
 
+## Dell Optiplex 3060 Micro
+**Syn** – Windows Development ([Windows 11 IoT LTSC](https://www.microsoft.com/windows))
+
+{{< figure src="/images/hardware/Dell-Optiplex-3060-Micro.jpg" alt="Dell Optiplex 3060 Micro" class="hardware-image" >}}
+
+- Intel® Core™ i5-8400T (6C/6T, 9M Cache, 1.7 GHz up to 3.3 GHz)
+- Intel H370 Chipset
+- 16Gb DDR4 2666 RAM
+- 512Gb Toshiba XG5 PCIe M.2 NVMe SSD
+- 4Tb Samsung 870 QVO SATA-III SSD
+- Intel HD Graphics 630 Graphics
+- Realtek ALC3234 HD Audio
+- Realtek RTL8111HSD-CG PCIe Gigabit LAN
+- USB 3.1 Gen 1 ports (4)
+- USB 2.0 ports (2)
+- J5Create USB™ 3.0 to Dual HDMI™ Multi-Monitor Adapter (JUA365)
+- Logitech G G502 HERO Wired Mouse
+- Keychron C3 Pro Wired Mechanical Gaming Keyboard
+- ARVIEMI 1080P USB Webcam
+- FIFINE K669B USB Microphone
+- MT-VIKI 4 port KVM HDMI Switch
+- Dell U2410F Series 24" LCD (1920×1200)
+- Dell E2314H Series 23" LED (1920×1080)
+- MSI G321Q 32" Flat Gaming IPS (2560x1440)
+
+---
+
 ## Beelink SER5 Max
-**Erebus** – Main Windows Development Machine ([Windows 11 Pro](https://www.microsoft.com/windows))
+**Erebus** – emuShell Test Machine ([Windows 11 IoT LTSC](https://www.microsoft.com/windows))
 
 {{< figure src="/images/hardware/Beelink-SER5-Max.jpg" alt="Beelink SER5 Max" class="hardware-image" >}}
 
 - AMD Ryzen™ 7 5800H (8C/16T, 4M Cache, 3.2 GHz up to 4.4 GHz)
 - Crucial 32Gb DDR4 3200 RAM
-- 4TB Crucial P3 CT4000P3SSD8 M.2 NVMe SSD
+- 256GB Kingston PCIe M.2 2280 SSD NVMe
+- 512Gb Patriot P220 Solid State Disk SATA-III
 - AMD Radeon RX Vega 8 Graphics 4GB
 - Intel Bluetooth 5.2
 - Intel Wifi 6 AX200 160MHz
@@ -58,61 +115,6 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 - USB 2.0 port (1)
 - USB C port (1)
 - Xbox 360 2.4GHz Wireless Wired Controller
-- Logitech G G502 HERO Wired Mouse
-- Keychron C3 Pro Wired Mechanical Gaming Keyboard
-- MT-VIKI 4 port KVM HDMI Switch
-- J5Create USB™ 3.0 to Dual HDMI™ Multi-Monitor Adapter (JUA365)
-- Dell U2410F Series 24" LCD (1920×1200)
-- Dell E2314H Series 23" LED (1920×1080)
-- MSI G321Q 32" Flat Gaming IPS (2560x1440)
-
----
-
-## Antec Fusion
-**Elysium** – emuShell Gaming PC ([Windows 11 LTSC](https://www.microsoft.com/windows))
-
-{{< figure src="/images/hardware/Antec-Fusion.jpg" alt="Antec Fusion" class="hardware-image" >}}
-
-- AMD Ryzen™ 7 5700X (8C/16T, 36MB Cache, 3.4 GHz up to 4.6 GHz)
-- Noctua NH-C14S Top-Flow Cooler
-- ASRock AMD Ryzen B550M Phantom Gaming 4 AM4 PCIe 4.0 mATX Motherboard
-- 64GB Corsair Vengeance LPX Black (2x32GB) 3600MHz DDR4 RAM
-- Crucial P310 1TB M.2 Gen. 4 NVMe SSD
-- 8Tb Samsung 870 QVO SATA-III SSD
-- ASUS Blu-ray Writer BW-16D1HT SATA
-- GIGABYTE GeForce RTX 5060 OC Low Profile 8GB PCIexpress 4.0 x16
-- Realtek 7.1 CH (Realtek ALC887/897 Audio Codec) HD Audio
-- Realtek RTL8168 Gigabit Ethernet PCIe
-- USB 3.0 ports (4)
-- USB 2.0 ports (4)
-- Google Stadia Bluetooth Controller (2)
-- Sony DualSense PS5 Wireless Controller - White
-- KEEKU AC600 Mbps WiFi/Bluetooth 4.2 PCI Express Adapter
-- USB iMon Soundgraph IR Receiver
-- Trust ODY Wireless Keyboard and Mouse
-- TCL C805K 65 inch QLED Mini LED 144Hz 4K HDR Smart Google TV
-
----
-
-## Alienware Alpha R2
-**Tartarus** – emuShell Test Machine ([Windows 10 LTSC](https://www.microsoft.com/windows))
-
-{{< figure src="/images/hardware/Alienware-Alpha-R2.jpg" alt="Alienware Alpha R2" class="hardware-image" >}}
-
-- Intel® Core™ i7-6700T (4C/8T, 8M Cache, 2.8 GHz up to 3.6 GHz)
-- 16Gb DDR4 2133 SDRAM
-- nVidia GTX 960 4GB PCIe 3.0 x16
-- 500GB Crucial P3 Plus PCIe M.2 2280 SSD NVMe
-- Intel Dual Band Wireless AC 3165 & Bluetooth 4.2
-- Intel HD Audio
-- Realtek ALC3234 for optical S/PDIF output
-- Realtek RTL8168 Gigabit Ethernet PCIe
-- USB 3.0 port (4)
-- HDMI In port
-- HDMI Out port
-- Optical S/PDIF port
-- Alienware Graphics Amplifier port
-- Sony DualSense PS5 Wireless Controller - Grey Camo
 
 ---
 
@@ -143,7 +145,7 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 {{< figure src="/images/hardware/AIOPCWA-X86-P5.jpg" alt="AIOPCWA X86-P5" class="hardware-image" >}}
 - Intel® Processor N100 (4C/4T, 6M Cache, 800 MHz up to 3.4 GHz)
 - 8GB LPDDR5 4800 RAM
-- 128GB M.2 SSD nVME
+- 128GB M.2 SSD NVMe
 - Intel Alder Lake-N [UHD Graphics]
 - Alder Lake-N PCH HD Audio Controller
 - Ethernet Controller I226-V 2.5G LAN (2)
@@ -153,33 +155,35 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 
 ---
 
-# Proxmox VE Servers
+# Servers
 
-## SIF
-**CiT S015B** – VM/Container Server #1 ([Proxmox VE](https://www.proxmox.com/en/proxmox-virtual-environment/overview))
+## Antec Fusion
+**Sif** – Home/Media Server ([Proxmox VE](https://www.proxmox.com/en/proxmox-virtual-environment/overview))
 
-{{< figure src="/images/hardware/CiT-S015B.jpg" alt="CiT S015B" class="hardware-image" >}}
+{{< figure src="/images/hardware/Antec-Fusion.jpg" alt="Antec Fusion" class="hardware-image" >}}
 
 - Intel® Core™ i5-8500T (6C/6T, 9M Cache, 2.1 GHz up to 3.5 GHz)
 - GIGABYTE Z370M-DS3H LGA1151 Motherboard
 - Intel H370 Chipset
 - 64Gb DDR4 2400 RAM
+- ASUS Blu-ray Writer BW-16D1HT SATA
 - Intel HD Graphics 630 1Gb Graphics
 - PNY nVidia RTX A2000 12Gb PCIe Graphics
-- 512Gb SPCC Solid State Disk SATA-III
+- 128GB LITE-ON CV3-8D128 M.2 SSD SATA-III
+- 1TB Silicon Power A55 SSD SATA-III
 - 18Tb Seagate Exos x18 ST18000NM000J SATA-III
+- 16Tb Seagate Exos x16 ST16000NM000J SATA-III
 - 10Tb Seagate Barracuda ST10000DM005 SATA-III
-- 8Tb Seagate Barracuda ST8000DM004 SATA-III
 - Realtek® ALC887 7.1-Channel HD Audio
-- Realtek® 8169 Gigabit Ethernet PCIe
-- Intel I226-V Dual Port 2.5Gb Ethernet PCIe
+- Realtek® 8169 Gigabit Ethernet PCIe (2)
 - USB 3.0 ports (6)
 - USB 2.0 ports (2)
+- USB iMon Soundgraph IR Receiver
 
 ---
 
-## TYR
-**Fractal Design Node 804** – VM/Container Server #2 ([Proxmox VE](https://www.proxmox.com/en/proxmox-virtual-environment/overview))
+## Fractal Design Node 804
+**Tyr** – NAS Server ([OpenMediaVault](https://www.openmediavault.org))
 
 {{< figure src="/images/hardware/NODE-804.jpg" alt="NODE-804" class="hardware-image" >}}
 
@@ -188,8 +192,8 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 - Supermicro X10SLM+-LN4F Motherboard
 - 32GB DDR3 ECC 1600MHz UDIMM RAM
 - ASPEED AST2400 BMC
+- 128GB Silicon Power A55 SSD SATA-III
 - 512GB Patriot P220 SSD SATA-III
-- 512GB Silicon Power A55 SSD SATA-III
 - 12Tb Seagate Ironwolf Pro ST12000NE0008 SATA-III (4)
 - 12Tb Seagate Exos x18 ST12000NM000J-2T SATA-III
 - 12Tb Seagate Enterprise ST12000NM0127 SATA-III
@@ -199,52 +203,12 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 - Noctua NF-P12 redux-900, Ultra Quiet Silent Fans (5)
 - USB 3.0 ports (4)
 - USB 2.0 ports (6)
+- APC Back UPS BX1200MI - 1200VA
 
 ---
 
-## SYN
-**Dell Optiplex 3060 Micro** – VM/Container Server #3 ([Proxmox VE](https://www.proxmox.com/en/proxmox-virtual-environment/overview))
-
-{{< figure src="/images/hardware/Dell-Optiplex-3060-Micro.jpg" alt="Dell Optiplex 3060 Micro" class="hardware-image" >}}
-
-- Intel® Core™ i5-8400T (6C/6T, 9M Cache, 1.7 GHz up to 3.3 GHz)
-- Intel H370 Chipset
-- 16Gb DDR4 2666 RAM
-- 256GB Sandisk Corp IX SN530 M.2 SSD nVME
-- 1TB Silicon Power SSD SATA-III
-- Intel HD Graphics 630 Graphics
-- Realtek ALC3234 HD Audio
-- Realtek RTL8111HSD-CG PCIe Gigabit LAN
-- USB 3.1 Gen 1 ports (4)
-- USB 2.0 ports (2)
-
----
-
-# Proxmox Backup Servers
-
-## VOR
-**Beelink U59 Pro** – Backup Server ([Proxmox Backup Server](https://www.proxmox.com/en/products/proxmox-backup-server/overview))
-
-{{< figure src="/images/hardware/Beelink-U59-Pro.jpg" alt="Beelink U59 Pro" class="hardware-image" >}}
-
-- Intel Celeron N5105 (4C/4T, 4M Cache, 2.0 GHz up to 2.9 GHz)
-- 16Gb DDR4 2666 RAM
-- 512GB M.2 SSD SATA-III
-- 4Tb Samsung 870 QVO SATA-III SSD
-- Intel JasperLake [UHD Graphics] GPU
-- Intel Corporation Jasper Lake HD Audio
-- Intel Bluetooth 4.0
-- Intel(R) Dual Band Wireless AC 3165
-- Realtek RTL8111 PCIe Gigabit LAN (2)
-- USB 3.0 port (4)
-- USB C port (1)
-
----
-
-# Debian Servers
-
-## VE
-**KASEPE T9PLUS** – Incus Server ([Debian 13 (Trixie)](https://www.debian.org))
+## KASEPE T9PLUS
+**Ve** – Network Services ([Debian 13 (Trixie)](https://www.debian.org))
 
 {{< figure src="/images/hardware/T9PLUS.jpg" alt="KASEPE T9PLUS" class="hardware-image" >}}
 
@@ -259,6 +223,25 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 - Realtek RTL8852BE Wireless LAN 802.11ax PCIe NIC
 - USB 3.1 port (3)
 - HDMI port (3)
+
+---
+
+## Beelink U59 Pro
+**Vor** – Backup Server ([Proxmox Backup Server](https://www.proxmox.com/en/proxmox-backup-server/overview))
+
+{{< figure src="/images/hardware/Beelink-U59-Pro.jpg" alt="Beelink U59 Pro" class="hardware-image" >}}
+
+- Intel Celeron N5105 (4C/4T, 4M Cache, 2.0 GHz up to 2.9 GHz)
+- 16Gb DDR4 2666 RAM
+- 512GB M.2 SSD SATA-III
+- 2TB Silicon Power A55 SSD SATA-III
+- Intel JasperLake [UHD Graphics] GPU
+- Intel Corporation Jasper Lake HD Audio
+- Intel Bluetooth 4.0
+- Intel(R) Dual Band Wireless AC 3165
+- Realtek RTL8111 PCIe Gigabit LAN (2)
+- USB 3.0 port (4)
+- USB C port (1)
 
 ---
 
@@ -383,10 +366,10 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 
 # ARM Devices
 
-## Goodisory A01 (Raspberry Pi 5B)
+## Pironman 5-MAX (Raspberry Pi 5B)
 **Njord** – Main ARM Development Machine ([Raspberry Pi OS](https://www.raspberrypi.com/software/))
 
-{{< figure src="/images/hardware/Goodisory-A01.jpg" alt="Goodisory A01" class="hardware-image" >}}
+{{< figure src="/images/hardware/Pironman-5-MAX.jpg" alt="Pironman 5-MAX" class="hardware-image" >}}
 
 - Broadcom BCM2712 2.4GHz quad-core 64-bit Arm Cortex-A76 CPU
 - VideoCore VII GPU, supporting OpenGL ES 3.1, Vulkan 1.2
@@ -401,7 +384,6 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 - Gigabit Ethernet
 - 2 × 4-lane MIPI camera/display transceivers
 - PCIe 2.0 x1 interface for fast peripherals (requires separate M.2 HAT or other adapter)
-- Pimoroni NVMe M.2 HAT @PCIe 3.0
 
 ---
 

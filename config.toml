@@ -37,8 +37,8 @@ favicon = false
     link = "contact" # Relative URL
 
 [params.fa] # Font Awesome options
-    version = "6.7.2"
-    integrity = "sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg=="
+    version = "7.0.1"
+    integrity = "sha512-6BTOlkauINO65nLhXhthZMtepgJSghyimIalb+crKRPhvhmsCdnIuGcVbR5/aQY2A+260iC1OPy1oCdB6pSSwQ=="
 
 [params.form] # Contact form
     netlify = false

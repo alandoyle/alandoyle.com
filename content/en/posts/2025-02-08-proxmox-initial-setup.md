@@ -84,6 +84,6 @@ Next up I’ve written a couple of follow-up articles.
 
 {{< notification title="Updates" >}}
   * 2025-07-24 - Re-worked install script to be more modular and to allow it to be re-run without causing issue.
-  * 2025-04-01 - Updated with link to Simple Proxmox Cluster Setup Script blog entry.
+  * 2025-04-01 - Updated with link to Minimal Proxmox Setup Script blog entry.
   * 2025-03-01 - Updated with link to ACME SSL Proxmox blog entry.
 {{< /notification >}}
