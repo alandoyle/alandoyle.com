@@ -28,21 +28,39 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 - ASRock AMD Ryzen B550M Phantom Gaming 4 AM4 PCIe 4.0 mATX Motherboard
 - 64GB Corsair Vengeance LPX Black (2x32GB) 3600MHz DDR4 RAM
 - 1TB Crucial P310 M.2 Gen. 4 NVMe SSD
-- 4TB Crucial P3 CT4000P3SSD8 M.2 NVMe SSD
+- 4TB Samsung 870 QVO SATA-III SSD
 - 8Tb Samsung 870 QVO SATA-III SSD
 - GIGABYTE GeForce RTX 5060 OC Low Profile 8GB PCIexpress 4.0 x16
 - Realtek 7.1 CH (Realtek ALC887/897 Audio Codec) HD Audio
-- Realtek RTL8168 Gigabit Ethernet PCIe
+- Realtek RTL8125 2.5G Ethernet PCIe
 - USB 3.2 Gen1 ports (4)
 - USB 3.0 ports (2)
 - USB 2.0 ports (2)
 - USB Type-C 3.1
+- USB Bluetooth 5.0
 - Xbox Wireless Controller – Carbon Black
 - AXFEE Xbox Wireless Adapter for PC
 - Sony DualSense PS5 Wireless Controller - White
-- KEEKU AC600 Mbps WiFi/Bluetooth 4.2 PCI Express Adapter
 - Trust ODY Wireless Keyboard and Mouse
 - TCL C805K 65 inch QLED Mini LED 144Hz 4K HDR Smart Google TV
+
+---
+
+## ASUS ROG Ally
+**Nyx** – Windows Gaming Handheld ([Windows 11 Home](https://www.microsoft.com/windows))
+
+{{< figure src="/images/hardware/ROG-Ally.jpg" alt="ASUS ROG Ally" class="hardware-image" >}}
+
+- AMD Ryzen™ Z1 Extreme (8C/16T, 24M Cache, 3.3 GHz up to 5.1 GHz)
+- 16b LPDDR5 on board (6400MT/s dual channel) RAM
+- AMD Radeon™ Graphics (AMD RDNA™ 3, 12 CUs, up to 2.7 GHz) 4Gb Integrated Graphics
+- 4TB Crucial P3 CT4000P3SSD8 M.2 NVMe SSD
+- ROG XG Mobile Interface and USB Type-C combo port
+- 7” HD screen (1920×1080), 120Hz 16:9 widescreen
+- UHS-II microSD card reader
+- 3.5mm Combo Audio Jack
+- Wi-Fi 6E(802.11ax) (Triple band) 2*2 + Bluetooth® 5.4
+- 74Wh Li-ion battery.
 
 ---
 
@@ -79,7 +97,6 @@ I tend to change hardware a fair bit — with certain exceptions. Of late I’ve
 - Intel H370 Chipset
 - 16Gb DDR4 2666 RAM
 - 512Gb Toshiba XG5 PCIe M.2 NVMe SSD
-- 4Tb Samsung 870 QVO SATA-III SSD
 - Intel HD Graphics 630 Graphics
 - Realtek ALC3234 HD Audio
 - Realtek RTL8111HSD-CG PCIe Gigabit LAN
