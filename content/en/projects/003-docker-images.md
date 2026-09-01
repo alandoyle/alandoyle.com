@@ -130,6 +130,171 @@ services:
 
 ---
 
+# FILEBOT
+
+Filebot is the ultimate tool for renaming and organizing your movies, TV shows and Anime.
+
+The graphical user interface (GUI) of the application can be accessed through a
+modern web browser, requiring no installation or configuration on the client.
+
+---
+
+## Docker
+
+Available on [DockerHub](https://hub.docker.com/r/alandoyle/filebot)
+```bash
+docker pull alandoyle/filebot
+```
+
+---
+
+## Usage
+
+```bash
+docker run --name=filebot \
+  -d --init \
+  -v <MY_DATA_PATH>:/data \
+  -v <MY_MEDIA_PATH>:/media \
+  -p 80:8080/tcp \
+  -p 5900:5900/tcp \
+  alandoyle/filebot:latest
+```
+
+Docker compose example:
+
+```yaml
+---
+services:
+  filebot:
+    image: alandoyle/filebot:latest
+    container_name: filebot
+    restart: unless-stopped
+    init: true
+    ports:
+      - 80:8080  # If you want to go filebot through a browser
+      - 5900:5900  # If you want to use a VNC client instead of the browser
+    volumes:
+      - /Storage/Incoming:/media
+      - ./data:/data
+    environment:
+      - RESOLUTION=1600x900 # Change resolution (default: 1366x768)
+      # - VNC_PASSWORD=8charpwd
+    restart: always
+    shm_size: "1gb"
+```
+
+---
+
+### Ports
+
+| Port       | Description           |
+|------------|-----------------------|
+| `8080/tcp` | NOVNC HTTP Port       |
+| `5900/tcp` | VNC Port              |
+
+---
+
+### Volumes
+
+| Path     | Description                            |
+|----------|----------------------------------------|
+| `/data`  | path for Filebot configuration files   |
+| `/media` | path for Filebot media files           |
+
+---
+
+## Filebot Licence
+
+If you have a valid Filebot Licence then this file can be copied to the `/data` directory as `.licence`
+
+This file is included in the email confirming registration and is in the following format...
+
+```
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+<Licence details here>
+
+-----END PGP SIGNATURE-----
+```
+
+Links to buy a [yearly](https://pay.paddle.com/checkout/532439?quantity_variable=0) or [lifetime](https://pay.paddle.com/checkout/534413?quantity_variable=0) licence can be found on the [Filebot download page](https://www.filebot.net/#download).
+
+---
+
+# MEDIAELCH
+
+MediaElch is a MediaManager for Kodi. Information about Movies, TV Shows, Concerts and Music are stored as NFO files. Fanarts are downloaded automatically from fanart.tv.
+
+The graphical user interface (GUI) of the application can be accessed through a
+modern web browser, requiring no installation or configuration on the client.
+
+---
+
+## Docker
+
+Available on [DockerHub](https://hub.docker.com/r/alandoyle/mediaelch)
+```bash
+docker pull alandoyle/mediaelch
+```
+
+---
+
+## Usage
+
+```bash
+docker run --name=mediaelch \
+  -d --init \
+  -v <MY_CONFIG_PATH>:/config \
+  -v <MY_MEDIA_PATH>:/media \
+  -p 80:8080/tcp \
+  -p 5900:5900/tcp \
+  alandoyle/mediaelch:latest
+```
+
+Docker compose example:
+
+```yaml
+---
+services:
+  mediaelch:
+    image: alandoyle/mediaelch:latest
+    container_name: mediaelch
+    restart: unless-stopped
+    init: true
+    ports:
+      - 80:8080  # If you want to go mediaelch through a browser
+      - 5900:5900  # If you want to use a VNC client instead of the browser
+    volumes:
+      - /Storage/Incoming:/media
+      - ./config:/config
+    environment:
+      - RESOLUTION=1600x900 # Change resolution (default: 1366x768)
+      # - VNC_PASSWORD=8charpwd
+    restart: always
+    shm_size: "1gb"
+```
+
+---
+
+### Ports
+
+| Port       | Description           |
+|------------|-----------------------|
+| `8080/tcp` | NOVNC HTTP Port       |
+| `5900/tcp` | VNC Port              |
+
+---
+
+### Volumes
+
+| Path      | Description                              |
+|-----------|------------------------------------------|
+| `/config` | path for MediaElch configuration files   |
+| `/media`  | path for MediaElch media files           |
+
+---
+
 # TT-RSS MYSQL
 
 {{< error title="MySQL is no longer supported in TT-RSS" >}}
