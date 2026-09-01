@@ -41,6 +41,7 @@ docker run --name=dokuwiki \
 Docker compose example:
 
 ```yaml
+---
 services:
   dokuwiki:
    image: alandoyle/dokuwiki:latest
@@ -144,6 +145,7 @@ A simple Tiny Tiny RSS image which only supports MySQL with integrated feed upda
 + Built-in TT-RSS updating.
 
 ----
+
 ## IMPORTANT NOTES
 
 This Docker image has several assumptions/prerequisites which need to be  fulfilled, ignoring them *will* bring failure.
@@ -229,6 +231,7 @@ docker run --name=tt-rss-mysql \
 Docker compose example:
 
 ```yaml
+---
 services:
   mysql:
     image: mysql:8.0
@@ -266,7 +269,7 @@ services:
 
 ### Volumes
 
-| Path    | Description                           |
-|---------|---------------------------------------|
-| `/var/www/tt-rss` | path for tt-rss web files |
-| `/opt/tt-rss/config.d` | path for tt-rss configuration files          |
+| Path                   | Description                         |
+|------------------------|-------------------------------------|
+| `/var/www/tt-rss`      | path for tt-rss web files           |
+| `/opt/tt-rss/config.d` | path for tt-rss configuration files |

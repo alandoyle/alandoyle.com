@@ -13,7 +13,7 @@ cover:
     relative: false
 ---
 
-# Why a new Docker Dokuwiki image?
+# Why a new Dokuwiki Docker image?
 
 Simple really. I couldn't find a simple, easy to configure Dokuwiki Docker image.
 
@@ -91,8 +91,8 @@ The Dokuwiki image only needs one port. Port 80, the standard Apache HTTP port.
 
 The 2 paths needed for persistant data and configuration are displayed in the table below.
 
-| Path    | Description                           |
-|---------|---------------------------------------|
+| Path                 | Description                           |
+|----------------------|---------------------------------------|
 | `/var/www/html/conf` | path for Dokuwiki configuration files |
 | `/var/www/html/data` | path for Dokuwiki data files          |
 
