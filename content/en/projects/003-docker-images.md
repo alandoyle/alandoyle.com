@@ -10,7 +10,7 @@ cover:
     relative: false
 ---
 
-I maintain a small number of personal Docker images on [DockerHub](https://hub.docker.com/u/alandoyle) whioch others may find useful.
+I maintain a small number of personal Docker images on [DockerHub](https://hub.docker.com/u/alandoyle) which others may find useful.
 
 # DOKUWIKI
 
